@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "colored-foliage:block/sunflower_bottom"
+    },
+    "half=upper": {
+      "model": "colored-foliage:block/sunflower_top"
+    }
+  }
+}

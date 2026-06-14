@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "colored-foliage:block/sunflower_bottom"
+  }
+}

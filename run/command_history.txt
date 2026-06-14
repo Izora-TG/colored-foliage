@@ -1,0 +1,21 @@
+/summon minecraft:tnt
+/summon minecraft:tnt\
+/summon minecraft:tnt
+/time set day
+/summon minecraft:tnt
+/time set day
+/execute as @e[type=minecraft:tnt_minecart] run summon minecraft:tnt_minecart
+/execute as @e[type=minecraft:tnt_minecart] run summon minecraft:tnt_minecart ~ ~ ~
+/time set day
+/locate biome minecraft:plains
+/tp @s 1169 68 -1349
+/setblock 1230 70 -1470 colored-foliage:blue_sunflower
+/setblock 1230 70 -1470 colored-foliage:blue_sunflower\
+/setblock 1230 70 -1470 colored-foliage:blue_sunflower
+/time set day
+/gamerule doDaylightCycle false
+/time set day
+/gamerule doMobSpawning false
+/kill @e[type=!minecraft:player]
+/kill @e[type=!minecraft:player]t
+/kill @e[type=!minecraft:player]

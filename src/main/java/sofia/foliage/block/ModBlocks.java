@@ -104,21 +104,21 @@ public class ModBlocks {
     public static final Block BLACK_SUNFLOWER = registerTallFlower("black_sunflower", MapColor.BLACK);
 
     public static final Block WHITE_LILY_OF_THE_VALLEY = registerFlower("white_lily_of_the_valley", MapColor.WHITE);
-    public static final Block ORANGE_LILY_OF_THE_VALLEY = registerFlower("white_lily_of_the_valley", MapColor.ORANGE);
-    public static final Block MAGENTA_LILY_OF_THE_VALLEY = registerFlower("white_lily_of_the_valley", MapColor.MAGENTA);
-    public static final Block LIGHT_BLUE_LILY_OF_THE_VALLEY = registerFlower("white_lily_of_the_valley", MapColor.LIGHT_BLUE);
-    public static final Block YELLOW_LILY_OF_THE_VALLEY = registerFlower("white_lily_of_the_valley", MapColor.YELLOW);
-    public static final Block LIME_LILY_OF_THE_VALLEY = registerFlower("white_lily_of_the_valley", MapColor.LIME);
-    public static final Block PINK_LILY_OF_THE_VALLEY = registerFlower("white_lily_of_the_valley", MapColor.PINK);
-    public static final Block GRAY_LILY_OF_THE_VALLEY = registerFlower("white_lily_of_the_valley", MapColor.GRAY);
-    public static final Block LIGHT_GRAY_LILY_OF_THE_VALLEY = registerFlower("white_lily_of_the_valley", MapColor.LIGHT_GRAY);
-    public static final Block CYAN_LILY_OF_THE_VALLEY = registerFlower("white_lily_of_the_valley", MapColor.CYAN);
-    public static final Block PURPLE_LILY_OF_THE_VALLEY = registerFlower("white_lily_of_the_valley", MapColor.PURPLE);
-    public static final Block BLUE_LILY_OF_THE_VALLEY = registerFlower("white_lily_of_the_valley", MapColor.BLUE);
-    public static final Block BROWN_LILY_OF_THE_VALLEY = registerFlower("white_lily_of_the_valley", MapColor.BROWN);
-    public static final Block GREEN_LILY_OF_THE_VALLEY = registerFlower("white_lily_of_the_valley", MapColor.GREEN);
-    public static final Block RED_LILY_OF_THE_VALLEY = registerFlower("white_lily_of_the_valley", MapColor.RED);
-    public static final Block BLACK_LILY_OF_THE_VALLEY = registerFlower("white_lily_of_the_valley", MapColor.BLACK);
+    public static final Block ORANGE_LILY_OF_THE_VALLEY = registerFlower("orange_lily_of_the_valley", MapColor.ORANGE);
+    public static final Block MAGENTA_LILY_OF_THE_VALLEY = registerFlower("magenta_lily_of_the_valley", MapColor.MAGENTA);
+    public static final Block LIGHT_BLUE_LILY_OF_THE_VALLEY = registerFlower("light_blue_lily_of_the_valley", MapColor.LIGHT_BLUE);
+    public static final Block YELLOW_LILY_OF_THE_VALLEY = registerFlower("yellow_lily_of_the_valley", MapColor.YELLOW);
+    public static final Block LIME_LILY_OF_THE_VALLEY = registerFlower("lime_lily_of_the_valley", MapColor.LIME);
+    public static final Block PINK_LILY_OF_THE_VALLEY = registerFlower("pink_lily_of_the_valley", MapColor.PINK);
+    public static final Block GRAY_LILY_OF_THE_VALLEY = registerFlower("gray_lily_of_the_valley", MapColor.GRAY);
+    public static final Block LIGHT_GRAY_LILY_OF_THE_VALLEY = registerFlower("light_gray_lily_of_the_valley", MapColor.LIGHT_GRAY);
+    public static final Block CYAN_LILY_OF_THE_VALLEY = registerFlower("cyan_lily_of_the_valley", MapColor.CYAN);
+    public static final Block PURPLE_LILY_OF_THE_VALLEY = registerFlower("purple_lily_of_the_valley", MapColor.PURPLE);
+    public static final Block BLUE_LILY_OF_THE_VALLEY = registerFlower("blue_lily_of_the_valley", MapColor.BLUE);
+    public static final Block BROWN_LILY_OF_THE_VALLEY = registerFlower("brown_lily_of_the_valley", MapColor.BROWN);
+    public static final Block GREEN_LILY_OF_THE_VALLEY = registerFlower("green_lily_of_the_valley", MapColor.GREEN);
+    public static final Block RED_LILY_OF_THE_VALLEY = registerFlower("red_lily_of_the_valley", MapColor.RED);
+    public static final Block BLACK_LILY_OF_THE_VALLEY = registerFlower("black_lily_of_the_valley", MapColor.BLACK);
 
 
     public static final Block[] LILY_OF_THE_VALLEY = {

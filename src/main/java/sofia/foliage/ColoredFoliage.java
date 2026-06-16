@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import sofia.foliage.block.ModBlocks;
 import sofia.foliage.item.ModItemGroups;
+import sofia.foliage.item.ModItems;
 
 public class ColoredFoliage implements ModInitializer {
 	public static final String MOD_ID = "colored-foliage";
@@ -16,5 +17,6 @@ public class ColoredFoliage implements ModInitializer {
 		LOGGER.info("Colored foliage initialized");
 		ModBlocks.registerModBocks();
 		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }

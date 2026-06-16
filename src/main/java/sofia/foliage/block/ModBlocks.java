@@ -121,7 +121,7 @@ public class ModBlocks {
     public static final Block BLACK_LILY_OF_THE_VALLEY = registerFlower("black_lily_of_the_valley", MapColor.BLACK);
 
 
-    public static final Block[] LILY_OF_THE_VALLEY = {
+    public static final Block[] LILY_OF_THE_VALLEYS = {
             WHITE_LILY_OF_THE_VALLEY,
             ORANGE_LILY_OF_THE_VALLEY,
             MAGENTA_LILY_OF_THE_VALLEY,

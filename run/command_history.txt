@@ -19,3 +19,4 @@
 /kill @e[type=!minecraft:player]
 /kill @e[type=!minecraft:player]t
 /kill @e[type=!minecraft:player]
+/give Player638 colored-foliage:rainbow_dye

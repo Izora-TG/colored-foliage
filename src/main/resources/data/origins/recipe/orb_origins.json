@@ -1,12 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#",
-    "S"
+    "", "", "",
+    "","#","",
+    "","S",""
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_stairs"
+      "item": "colored-foliage:rainbow_dye"
     },
     "S": {
       "item": "minecraft:stripped_oak_wood"

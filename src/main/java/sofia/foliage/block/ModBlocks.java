@@ -16,6 +16,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import sofia.foliage.ColoredFoliage;
+import sofia.foliage.item.ModItems;
 
 public class ModBlocks {
     public static final Block WHITE_POPPY = registerDyeableFlower("white_poppy", MapColor.WHITE);

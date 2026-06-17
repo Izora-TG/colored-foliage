@@ -96,5 +96,21 @@
   "block.colored-foliage.yellow_poppy": "Yellow Poppy",
   "block.colored-foliage.yellow_sunflower": "Yellow Sunflower",
   "item.colored-foliage.rainbow_dye": "Raindbow Dye",
-  "itemgroup.colored-foliage.colored_foliage_group": "Colored Foliage"
+  "itemgroup.colored-foliage.colored_foliage_group": "Colored Foliage",
+  "block.block.colored-foliage.cyan_wither_rose": "Cyan Wither Rose",
+  "block.colored-foliage.black_wither_rose": "Black Wither Rose",
+  "block.colored-foliage.blue_wither_rose": "Blue Wither Rose",
+  "block.colored-foliage.brown_wither_rose": "Brown Wither Rose",
+  "block.colored-foliage.gray_wither_rose": "Gray Wither Rose",
+  "block.colored-foliage.green_wither_rose": "Green Wither Rose",
+  "block.colored-foliage.light_blue_wither_rose": "Light Blue Wither Rose",
+  "block.colored-foliage.light_gray_wither_rose": "Light Wither Rose",
+  "block.colored-foliage.lime_wither_rose": "Lime Wither Rose",
+  "block.colored-foliage.magenta_wither_rose": "Magenta Wither Rose",
+  "block.colored-foliage.orange_wither_rose": "Orange Wither Rose",
+  "block.colored-foliage.pink_wither_rose": "Pink Wither Rose",
+  "block.colored-foliage.purple_wither_rose": "Purple Wither Rose",
+  "block.colored-foliage.red_wither_rose": "Red Wither Rose",
+  "block.colored-foliage.white_wither_rose": "White Wither Rose",
+  "block.colored-foliage.yellow_wither_rose": "Yellow Wither Rose"
 }

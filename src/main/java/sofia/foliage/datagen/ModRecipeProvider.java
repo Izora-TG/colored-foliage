@@ -33,6 +33,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSingleOutputShapelessRecipe(exporter, ModBlocks.RED_LILY_OF_THE_VALLEY, Items.RED_DYE, null);
         offerSingleOutputShapelessRecipe(exporter, ModBlocks.BLACK_LILY_OF_THE_VALLEY, Items.BLACK_DYE, null);
 
+        offerSingleOutputShapelessRecipe(exporter, ModBlocks.WHITE_WITHER_ROSE, Items.WHITE_DYE, null);
+        offerSingleOutputShapelessRecipe(exporter, ModBlocks.ORANGE_WITHER_ROSE, Items.ORANGE_DYE, null);
+        offerSingleOutputShapelessRecipe(exporter, ModBlocks.MAGENTA_WITHER_ROSE, Items.MAGENTA_DYE, null);
+        offerSingleOutputShapelessRecipe(exporter, ModBlocks.LIGHT_BLUE_WITHER_ROSE, Items.LIGHT_BLUE_DYE, null);
+        offerSingleOutputShapelessRecipe(exporter, ModBlocks.YELLOW_WITHER_ROSE, Items.YELLOW_DYE, null);
+        offerSingleOutputShapelessRecipe(exporter, ModBlocks.LIME_WITHER_ROSE, Items.LIME_DYE, null);
+        offerSingleOutputShapelessRecipe(exporter, ModBlocks.PINK_WITHER_ROSE, Items.PINK_DYE, null);
+        offerSingleOutputShapelessRecipe(exporter, ModBlocks.GRAY_WITHER_ROSE, Items.GRAY_DYE, null);
+        offerSingleOutputShapelessRecipe(exporter, ModBlocks.LIGHT_GRAY_WITHER_ROSE, Items.LIGHT_GRAY_DYE, null);
+        offerSingleOutputShapelessRecipe(exporter, ModBlocks.CYAN_WITHER_ROSE, Items.CYAN_DYE, null);
+        offerSingleOutputShapelessRecipe(exporter, ModBlocks.PURPLE_WITHER_ROSE, Items.PURPLE_DYE, null);
+        offerSingleOutputShapelessRecipe(exporter, ModBlocks.BLUE_WITHER_ROSE, Items.BLUE_DYE, null);
+        offerSingleOutputShapelessRecipe(exporter, ModBlocks.BROWN_WITHER_ROSE, Items.BROWN_DYE, null);
+        offerSingleOutputShapelessRecipe(exporter, ModBlocks.GREEN_WITHER_ROSE, Items.GREEN_DYE, null);
+        offerSingleOutputShapelessRecipe(exporter, ModBlocks.RED_WITHER_ROSE, Items.RED_DYE, null);
+        offerSingleOutputShapelessRecipe(exporter, ModBlocks.BLACK_WITHER_ROSE, Items.BLACK_DYE, null);
+
         offerSunflowerRecipe(exporter, ModBlocks.WHITE_SUNFLOWER, Items.WHITE_DYE);
         offerSunflowerRecipe(exporter, ModBlocks.ORANGE_SUNFLOWER, Items.ORANGE_DYE);
         offerSunflowerRecipe(exporter, ModBlocks.MAGENTA_SUNFLOWER, Items.MAGENTA_DYE);

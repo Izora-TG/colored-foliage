@@ -16,7 +16,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import sofia.foliage.ColoredFoliage;
-import sofia.foliage.item.ModItems;
 
 public class ModBlocks {
     public static final Block WHITE_POPPY = registerDyeableFlower("white_poppy", MapColor.WHITE);
@@ -121,6 +120,23 @@ public class ModBlocks {
     public static final Block RED_LILY_OF_THE_VALLEY = registerDyeableFlower("red_lily_of_the_valley", MapColor.RED);
     public static final Block BLACK_LILY_OF_THE_VALLEY = registerDyeableFlower("black_lily_of_the_valley", MapColor.BLACK);
 
+    public static final Block WHITE_WITHER_ROSE = registerDyeableFlower("white_wither_rose", MapColor.WHITE);
+    public static final Block ORANGE_WITHER_ROSE = registerDyeableFlower("orange_wither_rose", MapColor.ORANGE);
+    public static final Block MAGENTA_WITHER_ROSE = registerDyeableFlower("magenta_wither_rose", MapColor.MAGENTA);
+    public static final Block LIGHT_BLUE_WITHER_ROSE = registerDyeableFlower("light_blue_wither_rose", MapColor.LIGHT_BLUE);
+    public static final Block YELLOW_WITHER_ROSE = registerDyeableFlower("yellow_wither_rose", MapColor.YELLOW);
+    public static final Block LIME_WITHER_ROSE = registerDyeableFlower("lime_wither_rose", MapColor.LIME);
+    public static final Block PINK_WITHER_ROSE = registerDyeableFlower("pink_wither_rose", MapColor.PINK);
+    public static final Block GRAY_WITHER_ROSE = registerDyeableFlower("gray_wither_rose", MapColor.GRAY);
+    public static final Block LIGHT_GRAY_WITHER_ROSE = registerDyeableFlower("light_gray_wither_rose", MapColor.LIGHT_GRAY);
+    public static final Block CYAN_WITHER_ROSE = registerDyeableFlower("cyan_wither_rose", MapColor.CYAN);
+    public static final Block PURPLE_WITHER_ROSE = registerDyeableFlower("purple_wither_rose", MapColor.PURPLE);
+    public static final Block BLUE_WITHER_ROSE = registerDyeableFlower("blue_wither_rose", MapColor.BLUE);
+    public static final Block BROWN_WITHER_ROSE = registerDyeableFlower("brown_wither_rose", MapColor.BROWN);
+    public static final Block GREEN_WITHER_ROSE = registerDyeableFlower("green_wither_rose", MapColor.GREEN);
+    public static final Block RED_WITHER_ROSE = registerDyeableFlower("red_wither_rose", MapColor.RED);
+    public static final Block BLACK_WITHER_ROSE = registerDyeableFlower("black_wither_rose", MapColor.BLACK);
+
 
     public static final Block[] LILY_OF_THE_VALLEYS = {
             WHITE_LILY_OF_THE_VALLEY,
@@ -139,6 +155,24 @@ public class ModBlocks {
             GREEN_LILY_OF_THE_VALLEY,
             RED_LILY_OF_THE_VALLEY,
             BLACK_LILY_OF_THE_VALLEY
+    };
+    public static final Block[] WITHER_ROSES = {
+            WHITE_WITHER_ROSE,
+            ORANGE_WITHER_ROSE,
+            MAGENTA_WITHER_ROSE,
+            LIGHT_BLUE_WITHER_ROSE,
+            YELLOW_WITHER_ROSE,
+            LIME_WITHER_ROSE,
+            PINK_WITHER_ROSE,
+            GRAY_WITHER_ROSE,
+            LIGHT_GRAY_WITHER_ROSE,
+            CYAN_WITHER_ROSE,
+            PURPLE_WITHER_ROSE,
+            BLUE_WITHER_ROSE,
+            BROWN_WITHER_ROSE,
+            GREEN_WITHER_ROSE,
+            RED_WITHER_ROSE,
+            BLACK_WITHER_ROSE
     };
     public static final Block[] CORNFLOWERS = {
             WHITE_CORNFLOWER,
@@ -274,7 +308,23 @@ public class ModBlocks {
             BROWN_LILY_OF_THE_VALLEY,
             GREEN_LILY_OF_THE_VALLEY,
             RED_LILY_OF_THE_VALLEY,
-            BLACK_LILY_OF_THE_VALLEY
+            BLACK_LILY_OF_THE_VALLEY,
+            WHITE_WITHER_ROSE,
+            ORANGE_WITHER_ROSE,
+            MAGENTA_WITHER_ROSE,
+            LIGHT_BLUE_WITHER_ROSE,
+            YELLOW_WITHER_ROSE,
+            LIME_WITHER_ROSE,
+            PINK_WITHER_ROSE,
+            GRAY_WITHER_ROSE,
+            LIGHT_GRAY_WITHER_ROSE,
+            CYAN_WITHER_ROSE,
+            PURPLE_WITHER_ROSE,
+            BLUE_WITHER_ROSE,
+            BROWN_WITHER_ROSE,
+            GREEN_WITHER_ROSE,
+            RED_WITHER_ROSE,
+            BLACK_WITHER_ROSE
     };
 
     private static Block registerFlower(String name, MapColor white) {

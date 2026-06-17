@@ -67,6 +67,88 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessWither(exporter, ModBlocks.GREEN_WITHER_ROSE, Items.GREEN_DYE);
         offerShapelessWither(exporter, ModBlocks.RED_WITHER_ROSE, Items.RED_DYE);
         offerShapelessWither(exporter, ModBlocks.BLACK_WITHER_ROSE, Items.BLACK_DYE);
+
+        offerShapelessCorn(exporter, ModBlocks.WHITE_CORNFLOWER, Items.WHITE_DYE);
+        offerShapelessCorn(exporter, ModBlocks.ORANGE_CORNFLOWER, Items.ORANGE_DYE);
+        offerShapelessCorn(exporter, ModBlocks.MAGENTA_CORNFLOWER, Items.MAGENTA_DYE);
+        offerShapelessCorn(exporter, ModBlocks.LIGHT_BLUE_CORNFLOWER, Items.LIGHT_BLUE_DYE);
+        offerShapelessCorn(exporter, ModBlocks.YELLOW_CORNFLOWER, Items.YELLOW_DYE);
+        offerShapelessCorn(exporter, ModBlocks.LIME_CORNFLOWER, Items.LIME_DYE);
+        offerShapelessCorn(exporter, ModBlocks.PINK_CORNFLOWER, Items.PINK_DYE);
+        offerShapelessCorn(exporter, ModBlocks.GRAY_CORNFLOWER, Items.GRAY_DYE);
+        offerShapelessCorn(exporter, ModBlocks.LIGHT_GRAY_CORNFLOWER, Items.LIGHT_GRAY_DYE);
+        offerShapelessCorn(exporter, ModBlocks.CYAN_CORNFLOWER, Items.CYAN_DYE);
+        offerShapelessCorn(exporter, ModBlocks.PURPLE_CORNFLOWER, Items.PURPLE_DYE);
+        offerShapelessCorn(exporter, ModBlocks.BLUE_CORNFLOWER, Items.BLUE_DYE);
+        offerShapelessCorn(exporter, ModBlocks.BROWN_CORNFLOWER, Items.BROWN_DYE);
+        offerShapelessCorn(exporter, ModBlocks.GREEN_CORNFLOWER, Items.GREEN_DYE);
+        offerShapelessCorn(exporter, ModBlocks.RED_CORNFLOWER, Items.RED_DYE);
+        offerShapelessCorn(exporter, ModBlocks.BLACK_CORNFLOWER, Items.BLACK_DYE);
+
+        offerShapelessAllium(exporter, ModBlocks.WHITE_ALLIUM, Items.WHITE_DYE);
+        offerShapelessAllium(exporter, ModBlocks.ORANGE_ALLIUM, Items.ORANGE_DYE);
+        offerShapelessAllium(exporter, ModBlocks.MAGENTA_ALLIUM, Items.MAGENTA_DYE);
+        offerShapelessAllium(exporter, ModBlocks.LIGHT_BLUE_ALLIUM, Items.LIGHT_BLUE_DYE);
+        offerShapelessAllium(exporter, ModBlocks.YELLOW_ALLIUM, Items.YELLOW_DYE);
+        offerShapelessAllium(exporter, ModBlocks.LIME_ALLIUM, Items.LIME_DYE);
+        offerShapelessAllium(exporter, ModBlocks.PINK_ALLIUM, Items.PINK_DYE);
+        offerShapelessAllium(exporter, ModBlocks.GRAY_ALLIUM, Items.GRAY_DYE);
+        offerShapelessAllium(exporter, ModBlocks.LIGHT_GRAY_ALLIUM, Items.LIGHT_GRAY_DYE);
+        offerShapelessAllium(exporter, ModBlocks.CYAN_ALLIUM, Items.CYAN_DYE);
+        offerShapelessAllium(exporter, ModBlocks.PURPLE_ALLIUM, Items.PURPLE_DYE);
+        offerShapelessAllium(exporter, ModBlocks.BLUE_ALLIUM, Items.BLUE_DYE);
+        offerShapelessAllium(exporter, ModBlocks.BROWN_ALLIUM, Items.BROWN_DYE);
+        offerShapelessAllium(exporter, ModBlocks.GREEN_ALLIUM, Items.GREEN_DYE);
+        offerShapelessAllium(exporter, ModBlocks.RED_ALLIUM, Items.RED_DYE);
+        offerShapelessAllium(exporter, ModBlocks.BLACK_ALLIUM, Items.BLACK_DYE);
+
+        offerShapelessDande(exporter, ModBlocks.WHITE_DANDELION, Items.WHITE_DYE);
+        offerShapelessDande(exporter, ModBlocks.ORANGE_DANDELION, Items.ORANGE_DYE);
+        offerShapelessDande(exporter, ModBlocks.MAGENTA_DANDELION, Items.MAGENTA_DYE);
+        offerShapelessDande(exporter, ModBlocks.LIGHT_BLUE_DANDELION, Items.LIGHT_BLUE_DYE);
+        offerShapelessDande(exporter, ModBlocks.YELLOW_DANDELION, Items.YELLOW_DYE);
+        offerShapelessDande(exporter, ModBlocks.LIME_DANDELION, Items.LIME_DYE);
+        offerShapelessDande(exporter, ModBlocks.PINK_DANDELION, Items.PINK_DYE);
+        offerShapelessDande(exporter, ModBlocks.GRAY_DANDELION, Items.GRAY_DYE);
+        offerShapelessDande(exporter, ModBlocks.LIGHT_GRAY_DANDELION, Items.LIGHT_GRAY_DYE);
+        offerShapelessDande(exporter, ModBlocks.CYAN_DANDELION, Items.CYAN_DYE);
+        offerShapelessDande(exporter, ModBlocks.PURPLE_DANDELION, Items.PURPLE_DYE);
+        offerShapelessDande(exporter, ModBlocks.BLUE_DANDELION, Items.BLUE_DYE);
+        offerShapelessDande(exporter, ModBlocks.BROWN_DANDELION, Items.BROWN_DYE);
+        offerShapelessDande(exporter, ModBlocks.GREEN_DANDELION, Items.GREEN_DYE);
+        offerShapelessDande(exporter, ModBlocks.RED_DANDELION, Items.RED_DYE);
+        offerShapelessDande(exporter, ModBlocks.BLACK_DANDELION, Items.BLACK_DYE);
+
+        offerShapelessPoppy(exporter, ModBlocks.WHITE_POPPY, Items.WHITE_DYE);
+        offerShapelessPoppy(exporter, ModBlocks.ORANGE_POPPY, Items.ORANGE_DYE);
+        offerShapelessPoppy(exporter, ModBlocks.MAGENTA_POPPY, Items.MAGENTA_DYE);
+        offerShapelessPoppy(exporter, ModBlocks.LIGHT_BLUE_POPPY, Items.LIGHT_BLUE_DYE);
+        offerShapelessPoppy(exporter, ModBlocks.YELLOW_POPPY, Items.YELLOW_DYE);
+        offerShapelessPoppy(exporter, ModBlocks.LIME_POPPY, Items.LIME_DYE);
+        offerShapelessPoppy(exporter, ModBlocks.PINK_POPPY, Items.PINK_DYE);
+        offerShapelessPoppy(exporter, ModBlocks.GRAY_POPPY, Items.GRAY_DYE);
+        offerShapelessPoppy(exporter, ModBlocks.LIGHT_GRAY_POPPY, Items.LIGHT_GRAY_DYE);
+        offerShapelessPoppy(exporter, ModBlocks.CYAN_POPPY, Items.CYAN_DYE);
+        offerShapelessPoppy(exporter, ModBlocks.PURPLE_POPPY, Items.PURPLE_DYE);
+        offerShapelessPoppy(exporter, ModBlocks.BLUE_POPPY, Items.BLUE_DYE);
+        offerShapelessPoppy(exporter, ModBlocks.BROWN_POPPY, Items.BROWN_DYE);
+        offerShapelessPoppy(exporter, ModBlocks.GREEN_POPPY, Items.GREEN_DYE);
+        offerShapelessPoppy(exporter, ModBlocks.RED_POPPY, Items.RED_DYE);
+        offerShapelessPoppy(exporter, ModBlocks.BLACK_POPPY, Items.BLACK_DYE);
+    }
+    private static void offerShapelessLily(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
+        net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
+                .input(Items.LILY_OF_THE_VALLEY)
+                .input(dye)
+                .criterion(hasItem(Items.LILY_OF_THE_VALLEY), conditionsFromItem(Items.LILY_OF_THE_VALLEY))
+                .offerTo(exporter);
+    }
+    private static void offerSunflowerRecipe(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
+        net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(net.minecraft.recipe.book.RecipeCategory.DECORATIONS, output)
+                .input(Items.SUNFLOWER)
+                .input(dye)
+                .criterion(hasItem(Items.SUNFLOWER), conditionsFromItem(Items.SUNFLOWER))
+                .offerTo(exporter);
     }
     private static void offerShapelessWither(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
         net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
@@ -75,19 +157,32 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.WITHER_ROSE), conditionsFromItem(Items.WITHER_ROSE))
                 .offerTo(exporter);
     }
-    private static void offerShapelessLily(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
+    private static void offerShapelessCorn(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
         net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
-                .input(Items.WITHER_ROSE)
+                .input(Items.CORNFLOWER)
                 .input(dye)
-                .criterion(hasItem(Items.WITHER_ROSE), conditionsFromItem(Items.WITHER_ROSE))
+                .criterion(hasItem(Items.CORNFLOWER), conditionsFromItem(Items.CORNFLOWER))
                 .offerTo(exporter);
     }
-
-    private static void offerSunflowerRecipe(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
-        net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(net.minecraft.recipe.book.RecipeCategory.DECORATIONS, output)
-                .input(Items.SUNFLOWER)
+    private static void offerShapelessAllium(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
+        net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
+                .input(Items.ALLIUM)
                 .input(dye)
-                .criterion(hasItem(Items.SUNFLOWER), conditionsFromItem(Items.SUNFLOWER))
+                .criterion(hasItem(Items.ALLIUM), conditionsFromItem(Items.ALLIUM))
+                .offerTo(exporter);
+    }
+    private static void offerShapelessDande(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
+        net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
+                .input(Items.DANDELION)
+                .input(dye)
+                .criterion(hasItem(Items.DANDELION), conditionsFromItem(Items.DANDELION))
+                .offerTo(exporter);
+    }
+    private static void offerShapelessPoppy(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
+        net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
+                .input(Items.POPPY)
+                .input(dye)
+                .criterion(hasItem(Items.POPPY), conditionsFromItem(Items.POPPY))
                 .offerTo(exporter);
     }
 }

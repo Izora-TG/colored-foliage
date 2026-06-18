@@ -137,7 +137,42 @@ public class ModBlocks {
     public static final Block RED_WITHER_ROSE = registerDyeableFlower("red_wither_rose", MapColor.RED);
     public static final Block BLACK_WITHER_ROSE = registerDyeableFlower("black_wither_rose", MapColor.BLACK);
 
+    public static final Block WHITE_OXEYE_DAISY = registerDyeableFlower("white_oxeye_daisy", MapColor.WHITE);
+    public static final Block ORANGE_OXEYE_DAISY = registerDyeableFlower("orange_oxeye_daisy", MapColor.ORANGE);
+    public static final Block MAGENTA_OXEYE_DAISY = registerDyeableFlower("magenta_oxeye_daisy", MapColor.MAGENTA);
+    public static final Block LIGHT_BLUE_OXEYE_DAISY = registerDyeableFlower("light_blue_oxeye_daisy", MapColor.LIGHT_BLUE);
+    public static final Block YELLOW_OXEYE_DAISY = registerDyeableFlower("yellow_oxeye_daisy", MapColor.YELLOW);
+    public static final Block LIME_OXEYE_DAISY = registerDyeableFlower("lime_oxeye_daisy", MapColor.LIME);
+    public static final Block PINK_OXEYE_DAISY = registerDyeableFlower("pink_oxeye_daisy", MapColor.PINK);
+    public static final Block GRAY_OXEYE_DAISY = registerDyeableFlower("gray_oxeye_daisy", MapColor.GRAY);
+    public static final Block LIGHT_GRAY_OXEYE_DAISY = registerDyeableFlower("light_gray_oxeye_daisy", MapColor.LIGHT_GRAY);
+    public static final Block CYAN_OXEYE_DAISY = registerDyeableFlower("cyan_oxeye_daisy", MapColor.CYAN);
+    public static final Block PURPLE_OXEYE_DAISY = registerDyeableFlower("purple_oxeye_daisy", MapColor.PURPLE);
+    public static final Block BLUE_OXEYE_DAISY = registerDyeableFlower("blue_oxeye_daisy", MapColor.BLUE);
+    public static final Block BROWN_OXEYE_DAISY = registerDyeableFlower("brown_oxeye_daisy", MapColor.BROWN);
+    public static final Block GREEN_OXEYE_DAISY = registerDyeableFlower("green_oxeye_daisy", MapColor.GREEN);
+    public static final Block RED_OXEYE_DAISY = registerDyeableFlower("red_oxeye_daisy", MapColor.RED);
+    public static final Block BLACK_OXEYE_DAISY = registerDyeableFlower("black_oxeye_daisy", MapColor.BLACK);
 
+    public static final Block[] OXEYE_DAISYS = {
+            WHITE_OXEYE_DAISY,
+            ORANGE_OXEYE_DAISY,
+            MAGENTA_OXEYE_DAISY,
+            LIGHT_BLUE_OXEYE_DAISY,
+            YELLOW_OXEYE_DAISY,
+            LIME_OXEYE_DAISY,
+            PINK_OXEYE_DAISY,
+            GRAY_OXEYE_DAISY,
+            LIGHT_GRAY_OXEYE_DAISY,
+            CYAN_OXEYE_DAISY,
+            PURPLE_OXEYE_DAISY,
+            BLUE_OXEYE_DAISY,
+            BROWN_OXEYE_DAISY,
+            GREEN_OXEYE_DAISY,
+            RED_OXEYE_DAISY,
+            BLACK_OXEYE_DAISY,
+            MAGENTA_OXEYE_DAISY
+    };
     public static final Block[] LILY_OF_THE_VALLEYS = {
             WHITE_LILY_OF_THE_VALLEY,
             ORANGE_LILY_OF_THE_VALLEY,
@@ -324,7 +359,23 @@ public class ModBlocks {
             BROWN_WITHER_ROSE,
             GREEN_WITHER_ROSE,
             RED_WITHER_ROSE,
-            BLACK_WITHER_ROSE
+            BLACK_WITHER_ROSE,
+            WHITE_OXEYE_DAISY,
+            ORANGE_OXEYE_DAISY,
+            MAGENTA_OXEYE_DAISY,
+            LIGHT_BLUE_OXEYE_DAISY,
+            YELLOW_OXEYE_DAISY,
+            LIME_OXEYE_DAISY,
+            PINK_OXEYE_DAISY,
+            GRAY_OXEYE_DAISY,
+            LIGHT_GRAY_OXEYE_DAISY,
+            CYAN_OXEYE_DAISY,
+            PURPLE_OXEYE_DAISY,
+            BLUE_OXEYE_DAISY,
+            BROWN_OXEYE_DAISY,
+            GREEN_OXEYE_DAISY,
+            RED_OXEYE_DAISY,
+            BLACK_OXEYE_DAISY
     };
 
     private static Block registerFlower(String name, MapColor white) {

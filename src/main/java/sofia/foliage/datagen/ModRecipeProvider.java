@@ -135,6 +135,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessPoppy(exporter, ModBlocks.GREEN_POPPY, Items.GREEN_DYE);
         offerShapelessPoppy(exporter, ModBlocks.RED_POPPY, Items.RED_DYE);
         offerShapelessPoppy(exporter, ModBlocks.BLACK_POPPY, Items.BLACK_DYE);
+
+        offerShapelessOxeye(exporter, ModBlocks.WHITE_OXEYE_DAISY, Items.WHITE_DYE);
+        offerShapelessOxeye(exporter, ModBlocks.ORANGE_OXEYE_DAISY, Items.ORANGE_DYE);
+        offerShapelessOxeye(exporter, ModBlocks.MAGENTA_OXEYE_DAISY, Items.MAGENTA_DYE);
+        offerShapelessOxeye(exporter, ModBlocks.LIGHT_BLUE_OXEYE_DAISY, Items.LIGHT_BLUE_DYE);
+        offerShapelessOxeye(exporter, ModBlocks.YELLOW_OXEYE_DAISY, Items.YELLOW_DYE);
+        offerShapelessOxeye(exporter, ModBlocks.LIME_OXEYE_DAISY, Items.LIME_DYE);
+        offerShapelessOxeye(exporter, ModBlocks.PINK_OXEYE_DAISY, Items.PINK_DYE);
+        offerShapelessOxeye(exporter, ModBlocks.GRAY_OXEYE_DAISY, Items.GRAY_DYE);
+        offerShapelessOxeye(exporter, ModBlocks.LIGHT_GRAY_OXEYE_DAISY, Items.LIGHT_GRAY_DYE);
+        offerShapelessOxeye(exporter, ModBlocks.CYAN_OXEYE_DAISY, Items.CYAN_DYE);
+        offerShapelessOxeye(exporter, ModBlocks.PURPLE_OXEYE_DAISY, Items.PURPLE_DYE);
+        offerShapelessOxeye(exporter, ModBlocks.BLUE_OXEYE_DAISY, Items.BLUE_DYE);
+        offerShapelessOxeye(exporter, ModBlocks.BROWN_OXEYE_DAISY, Items.BROWN_DYE);
+        offerShapelessOxeye(exporter, ModBlocks.GREEN_OXEYE_DAISY, Items.GREEN_DYE);
+        offerShapelessOxeye(exporter, ModBlocks.RED_OXEYE_DAISY, Items.RED_DYE);
+        offerShapelessOxeye(exporter, ModBlocks.BLACK_OXEYE_DAISY, Items.BLACK_DYE);
     }
     private static void offerShapelessLily(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
         net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
@@ -183,6 +200,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.POPPY)
                 .input(dye)
                 .criterion(hasItem(Items.POPPY), conditionsFromItem(Items.POPPY))
+                .offerTo(exporter);
+    }
+    private static void offerShapelessOxeye(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
+        net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
+                .input(Items.OXEYE_DAISY)
+                .input(dye)
+                .criterion(hasItem(Items.POPPY), conditionsFromItem(Items.OXEYE_DAISY))
                 .offerTo(exporter);
     }
 }

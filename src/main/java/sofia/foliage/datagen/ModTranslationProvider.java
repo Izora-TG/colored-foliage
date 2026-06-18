@@ -13,22 +13,22 @@ public class ModTranslationProvider extends FabricLanguageProvider {
 
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
-        translationBuilder.add("block.colored-foliage.black_wither_rose", "Black Wither Rose");
-        translationBuilder.add("block.colored-foliage.white_wither_rose", "White Wither Rose");
-        translationBuilder.add("block.colored-foliage.orange_wither_rose", "Orange Wither Rose");
-        translationBuilder.add("block.colored-foliage.magenta_wither_rose", "Magenta Wither Rose");
-        translationBuilder.add("block.colored-foliage.light_blue_wither_rose", "Light Blue Wither Rose");
-        translationBuilder.add("block.colored-foliage.yellow_wither_rose", "Yellow Wither Rose");
-        translationBuilder.add("block.colored-foliage.lime_wither_rose", "Lime Wither Rose");
-        translationBuilder.add("block.colored-foliage.pink_wither_rose", "Pink Wither Rose");
-        translationBuilder.add("block.colored-foliage.gray_wither_rose", "Gray Wither Rose");
-        translationBuilder.add("block.colored-foliage.light_gray_wither_rose", "Light Wither Rose");
-        translationBuilder.add("block.block.colored-foliage.cyan_wither_rose", "Cyan Wither Rose");
-        translationBuilder.add("block.colored-foliage.purple_wither_rose", "Purple Wither Rose");
-        translationBuilder.add("block.colored-foliage.blue_wither_rose", "Blue Wither Rose");
-        translationBuilder.add("block.colored-foliage.brown_wither_rose", "Brown Wither Rose");
-        translationBuilder.add("block.colored-foliage.green_wither_rose", "Green Wither Rose");
-        translationBuilder.add("block.colored-foliage.red_wither_rose", "Red Wither Rose");
+        translationBuilder.add("block.colored-foliage.black_oxeye_daisy", "Black Oxeye Daisy");
+        translationBuilder.add("block.colored-foliage.white_oxeye_daisy", "White Oxeye Daisy");
+        translationBuilder.add("block.colored-foliage.orange_oxeye_daisy", "Orange Oxeye Daisy");
+        translationBuilder.add("block.colored-foliage.magenta_oxeye_daisy", "Magenta Oxeye Daisy");
+        translationBuilder.add("block.colored-foliage.light_blue_oxeye_daisy", "Light Blue Oxeye Daisy");
+        translationBuilder.add("block.colored-foliage.yellow_oxeye_daisy", "Yellow Oxeye Daisy");
+        translationBuilder.add("block.colored-foliage.lime_oxeye_daisy", "Lime Oxeye Daisy");
+        translationBuilder.add("block.colored-foliage.pink_oxeye_daisy", "Pink Oxeye Daisy");
+        translationBuilder.add("block.colored-foliage.gray_oxeye_daisy", "Gray Oxeye Daisy");
+        translationBuilder.add("block.colored-foliage.light_gray_oxeye_daisy", "Light Oxeye Daisy");
+        translationBuilder.add("block.block.colored-foliage.cyan_oxeye_daisy", "Cyan Oxeye Daisy");
+        translationBuilder.add("block.colored-foliage.purple_oxeye_daisy", "Purple Oxeye Daisy");
+        translationBuilder.add("block.colored-foliage.blue_oxeye_daisy", "Blue Oxeye Daisy");
+        translationBuilder.add("block.colored-foliage.brown_oxeye_daisy", "Brown Oxeye Daisy");
+        translationBuilder.add("block.colored-foliage.green_oxeye_daisy", "Green Oxeye Daisy");
+        translationBuilder.add("block.colored-foliage.red_oxeye_daisy", "Red Oxeye Daisy");
 
     }
 }

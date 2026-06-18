@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "colored-foliage:block/dandelion_base"
-  }
+  "parent": "colored-foliage:block/cyan_dandelion"
 }

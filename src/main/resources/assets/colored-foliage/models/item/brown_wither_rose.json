@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "colored-foliage:block/rose_base"
-  }
+  "parent": "colored-foliage:block/brown_wither_rose"
 }

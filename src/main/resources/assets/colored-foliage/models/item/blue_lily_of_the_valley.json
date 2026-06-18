@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "colored-foliage:block/valley_base"
-  }
+  "parent": "colored-foliage:block/blue_lily_of_the_valley"
 }

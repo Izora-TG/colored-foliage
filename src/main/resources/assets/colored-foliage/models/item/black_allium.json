@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "colored-foliage:block/allium_base"
-  }
+  "parent": "colored-foliage:block/black_allium"
 }

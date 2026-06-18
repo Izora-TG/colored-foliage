@@ -127,6 +127,19 @@
     "colored-foliage:brown_oxeye_daisy",
     "colored-foliage:green_oxeye_daisy",
     "colored-foliage:red_oxeye_daisy",
-    "colored-foliage:black_oxeye_daisy"
+    "colored-foliage:black_oxeye_daisy",
+    "colored-foliage:magenta_tulip",
+    "colored-foliage:light_blue_tulip",
+    "colored-foliage:yellow_tulip",
+    "colored-foliage:lime_tulip",
+    "colored-foliage:gray_tulip",
+    "colored-foliage:light_gray_tulip",
+    "colored-foliage:cyan_tulip",
+    "colored-foliage:purple_tulip",
+    "colored-foliage:blue_tulip",
+    "colored-foliage:brown_tulip",
+    "colored-foliage:green_tulip",
+    "colored-foliage:red_tulip",
+    "colored-foliage:black_tulip"
   ]
 }

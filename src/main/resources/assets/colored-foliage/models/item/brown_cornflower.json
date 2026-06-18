@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "colored-foliage:block/cornflower_base"
-  }
+  "parent": "colored-foliage:block/brown_cornflower"
 }

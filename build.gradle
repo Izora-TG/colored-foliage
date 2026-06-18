@@ -51,6 +51,11 @@ processResources {
 		expand "version": version
 	}
 }
+import org.gradle.api.file.DuplicatesStrategy
+
+tasks.named("processResources") {
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
 
 tasks.withType(JavaCompile).configureEach {
 	it.options.release = 21

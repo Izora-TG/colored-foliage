@@ -2,10 +2,14 @@ package sofia.foliage.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
+import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.util.Identifier;
+import sofia.foliage.ColoredFoliage;
 import sofia.foliage.block.ModBlocks;
 
 import java.util.concurrent.CompletableFuture;
@@ -152,6 +156,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessOxeye(exporter, ModBlocks.GREEN_OXEYE_DAISY, Items.GREEN_DYE);
         offerShapelessOxeye(exporter, ModBlocks.RED_OXEYE_DAISY, Items.RED_DYE);
         offerShapelessOxeye(exporter, ModBlocks.BLACK_OXEYE_DAISY, Items.BLACK_DYE);
+
+        offerShapelessRTulip(exporter, ModBlocks.MAGENTA_TULIP, Items.MAGENTA_DYE);
+        offerShapelessRTulip(exporter, ModBlocks.LIGHT_BLUE_TULIP, Items.LIGHT_BLUE_DYE);
+        offerShapelessRTulip(exporter, ModBlocks.YELLOW_TULIP, Items.YELLOW_DYE);
+        offerShapelessRTulip(exporter, ModBlocks.LIME_TULIP, Items.LIME_DYE);
+        offerShapelessRTulip(exporter, ModBlocks.GRAY_TULIP, Items.GRAY_DYE);
+        offerShapelessRTulip(exporter, ModBlocks.LIGHT_GRAY_TULIP, Items.LIGHT_GRAY_DYE);
+        offerShapelessRTulip(exporter, ModBlocks.CYAN_TULIP, Items.CYAN_DYE);
+        offerShapelessRTulip(exporter, ModBlocks.PURPLE_TULIP, Items.PURPLE_DYE);
+        offerShapelessRTulip(exporter, ModBlocks.BLUE_TULIP, Items.BLUE_DYE);
+        offerShapelessRTulip(exporter, ModBlocks.BROWN_TULIP, Items.BROWN_DYE);
+        offerShapelessRTulip(exporter, ModBlocks.GREEN_TULIP, Items.GREEN_DYE);
+        offerShapelessRTulip(exporter, ModBlocks.BLACK_TULIP, Items.BLACK_DYE);
+
     }
     private static void offerShapelessLily(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
         net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
@@ -206,7 +224,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
                 .input(Items.OXEYE_DAISY)
                 .input(dye)
-                .criterion(hasItem(Items.POPPY), conditionsFromItem(Items.OXEYE_DAISY))
+                .criterion(hasItem(Items.OXEYE_DAISY), conditionsFromItem(Items.OXEYE_DAISY))
+                .offerTo(exporter);
+    }
+    private static void offerShapelessRTulip(RecipeExporter exporter, ItemConvertible output, ItemConvertible dye) {
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
+                .input(Items.RED_TULIP)
+                .input(dye)
+                .criterion(hasItem(Items.RED_TULIP), conditionsFromItem(Items.RED_TULIP))
                 .offerTo(exporter);
     }
 }

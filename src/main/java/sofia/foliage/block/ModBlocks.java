@@ -154,6 +154,35 @@ public class ModBlocks {
     public static final Block RED_OXEYE_DAISY = registerDyeableFlower("red_oxeye_daisy", MapColor.RED);
     public static final Block BLACK_OXEYE_DAISY = registerDyeableFlower("black_oxeye_daisy", MapColor.BLACK);
 
+    public static final Block MAGENTA_TULIP = registerDyeableFlower("magenta_tulip", MapColor.MAGENTA);
+    public static final Block LIGHT_BLUE_TULIP = registerDyeableFlower("light_blue_tulip", MapColor.LIGHT_BLUE);
+    public static final Block YELLOW_TULIP = registerDyeableFlower("yellow_tulip", MapColor.YELLOW);
+    public static final Block LIME_TULIP = registerDyeableFlower("lime_tulip", MapColor.LIME);
+    public static final Block GRAY_TULIP = registerDyeableFlower("gray_tulip", MapColor.GRAY);
+    public static final Block LIGHT_GRAY_TULIP = registerDyeableFlower("light_gray_tulip", MapColor.LIGHT_GRAY);
+    public static final Block CYAN_TULIP = registerDyeableFlower("cyan_tulip", MapColor.CYAN);
+    public static final Block PURPLE_TULIP = registerDyeableFlower("purple_tulip", MapColor.PURPLE);
+    public static final Block BLUE_TULIP = registerDyeableFlower("blue_tulip", MapColor.BLUE);
+    public static final Block BROWN_TULIP = registerDyeableFlower("brown_tulip", MapColor.BROWN);
+    public static final Block GREEN_TULIP = registerDyeableFlower("green_tulip", MapColor.GREEN);
+    public static final Block RED_TULIP = registerDyeableFlower("red_tulip", MapColor.RED);
+    public static final Block BLACK_TULIP = registerDyeableFlower("black_tulip", MapColor.BLACK);
+
+    public static final Block[] TULIPS = {
+            MAGENTA_TULIP,
+            LIGHT_BLUE_TULIP,
+            YELLOW_TULIP,
+            LIME_TULIP,
+            GRAY_TULIP,
+            LIGHT_GRAY_TULIP,
+            CYAN_TULIP,
+            PURPLE_TULIP,
+            BLUE_TULIP,
+            BROWN_TULIP,
+            GREEN_TULIP,
+            RED_TULIP,
+            BLACK_TULIP
+    };
     public static final Block[] OXEYE_DAISYS = {
             WHITE_OXEYE_DAISY,
             ORANGE_OXEYE_DAISY,
@@ -375,7 +404,20 @@ public class ModBlocks {
             BROWN_OXEYE_DAISY,
             GREEN_OXEYE_DAISY,
             RED_OXEYE_DAISY,
-            BLACK_OXEYE_DAISY
+            BLACK_OXEYE_DAISY,
+            MAGENTA_TULIP,
+            LIGHT_BLUE_TULIP,
+            YELLOW_TULIP,
+            LIME_TULIP,
+            GRAY_TULIP,
+            LIGHT_GRAY_TULIP,
+            CYAN_TULIP,
+            PURPLE_TULIP,
+            BLUE_TULIP,
+            BROWN_TULIP,
+            GREEN_TULIP,
+            RED_TULIP,
+            BLACK_TULIP
     };
 
     private static Block registerFlower(String name, MapColor white) {

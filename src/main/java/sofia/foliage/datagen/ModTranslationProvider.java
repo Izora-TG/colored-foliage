@@ -13,22 +13,22 @@ public class ModTranslationProvider extends FabricLanguageProvider {
 
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
-        translationBuilder.add("block.colored-foliage.black_tulip", "Black Tulip");
-        //translationBuilder.add("block.colored-foliage.white_tulip", "White Tulip");
-        //translationBuilder.add("block.colored-foliage.orange_tulip", "Orange Tulip");
-        translationBuilder.add("block.colored-foliage.magenta_tulip", "Magenta Tulip");
-        translationBuilder.add("block.colored-foliage.light_blue_tulip", "Light Blue Tulip");
-        translationBuilder.add("block.colored-foliage.yellow_tulip", "Yellow Tulip");
-        translationBuilder.add("block.colored-foliage.lime_tulip", "Lime Tulip");
-        //translationBuilder.add("block.colored-foliage.pink_tulip", "Pink Tulip");
-        translationBuilder.add("block.colored-foliage.gray_tulip", "Gray Tulip");
-        translationBuilder.add("block.colored-foliage.light_gray_tulip", "Light Gray Tulip");
-        translationBuilder.add("block.block.colored-foliage.cyan_tulip", "Cyan Tulip");
-        translationBuilder.add("block.colored-foliage.purple_tulip", "Purple Tulip");
-        translationBuilder.add("block.colored-foliage.blue_tulip", "Blue Tulip");
-        translationBuilder.add("block.colored-foliage.brown_tulip", "Brown Tulip");
-        translationBuilder.add("block.colored-foliage.green_tulip", "Green Tulip");
-        //translationBuilder.add("block.colored-foliage.red_tulip", "Red Tulip");
+        translationBuilder.add("block.colored-foliage.black_orchid", "Black Orchid");
+        translationBuilder.add("block.colored-foliage.white_orchid", "White Orchid");
+        translationBuilder.add("block.colored-foliage.orange_orchid", "Orange Orchid");
+        translationBuilder.add("block.colored-foliage.magenta_orchid", "Magenta Orchid");
+        translationBuilder.add("block.colored-foliage.light_blue_orchid", "Light Blue Orchid");
+        translationBuilder.add("block.colored-foliage.yellow_orchid", "Yellow Orchid");
+        translationBuilder.add("block.colored-foliage.lime_orchid", "Lime Orchid");
+        translationBuilder.add("block.colored-foliage.pink_orchid", "Pink Orchid");
+        translationBuilder.add("block.colored-foliage.gray_orchid", "Gray Orchid");
+        translationBuilder.add("block.colored-foliage.light_gray_orchid", "Light Gray Orchid");
+        translationBuilder.add("block.colored-foliage.cyan_orchid", "Cyan Orchid");
+        translationBuilder.add("block.colored-foliage.purple_orchid", "Purple Orchid");
+        //translationBuilder.add("block.colored-foliage.blue_orchid", "Blue Orchid");
+        translationBuilder.add("block.colored-foliage.brown_orchid", "Brown Orchid");
+        translationBuilder.add("block.colored-foliage.green_orchid", "Green Orchid");
+        translationBuilder.add("block.colored-foliage.red_orchid", "Red Orchid");
 
     }
 }

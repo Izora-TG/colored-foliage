@@ -168,6 +168,40 @@ public class ModBlocks {
     public static final Block RED_TULIP = registerDyeableFlower("red_tulip", MapColor.RED);
     public static final Block BLACK_TULIP = registerDyeableFlower("black_tulip", MapColor.BLACK);
 
+    public static final Block WHITE_ORCHID = registerDyeableFlower("white_orchid", MapColor.WHITE);
+    public static final Block ORANGE_ORCHID = registerDyeableFlower("orange_orchid", MapColor.ORANGE);
+    public static final Block MAGENTA_ORCHID = registerDyeableFlower("magenta_orchid", MapColor.MAGENTA);
+    public static final Block LIGHT_BLUE_ORCHID = registerDyeableFlower("light_blue_orchid", MapColor.LIGHT_BLUE);
+    public static final Block YELLOW_ORCHID = registerDyeableFlower("yellow_orchid", MapColor.YELLOW);
+    public static final Block LIME_ORCHID = registerDyeableFlower("lime_orchid", MapColor.LIME);
+    public static final Block PINK_ORCHID = registerDyeableFlower("pink_orchid", MapColor.PINK);
+    public static final Block GRAY_ORCHID = registerDyeableFlower("gray_orchid", MapColor.GRAY);
+    public static final Block LIGHT_GRAY_ORCHID = registerDyeableFlower("light_gray_orchid", MapColor.LIGHT_GRAY);
+    public static final Block CYAN_ORCHID = registerDyeableFlower("cyan_orchid", MapColor.CYAN);
+    public static final Block PURPLE_ORCHID = registerDyeableFlower("purple_orchid", MapColor.PURPLE);
+    public static final Block BROWN_ORCHID = registerDyeableFlower("brown_orchid", MapColor.BROWN);
+    public static final Block GREEN_ORCHID = registerDyeableFlower("green_orchid", MapColor.GREEN);
+    public static final Block RED_ORCHID = registerDyeableFlower("red_orchid", MapColor.RED);
+    public static final Block BLACK_ORCHID = registerDyeableFlower("black_orchid", MapColor.BLACK);
+
+    public static final Block[] ORCHIDS = {
+            WHITE_ORCHID,
+            ORANGE_ORCHID,
+            MAGENTA_ORCHID,
+            LIGHT_BLUE_ORCHID,
+            YELLOW_ORCHID,
+            LIME_ORCHID,
+            PINK_ORCHID,
+            GRAY_ORCHID,
+            LIGHT_GRAY_ORCHID,
+            CYAN_ORCHID,
+            PURPLE_ORCHID,
+            BROWN_ORCHID,
+            GREEN_ORCHID,
+            RED_ORCHID,
+            BLACK_ORCHID
+    };
+
     public static final Block[] TULIPS = {
             MAGENTA_TULIP,
             LIGHT_BLUE_TULIP,
@@ -417,7 +451,22 @@ public class ModBlocks {
             BROWN_TULIP,
             GREEN_TULIP,
             RED_TULIP,
-            BLACK_TULIP
+            BLACK_TULIP,
+            WHITE_ORCHID,
+            ORANGE_ORCHID,
+            MAGENTA_ORCHID,
+            LIGHT_BLUE_ORCHID,
+            YELLOW_ORCHID,
+            LIME_ORCHID,
+            PINK_ORCHID,
+            GRAY_ORCHID,
+            LIGHT_GRAY_ORCHID,
+            CYAN_ORCHID,
+            PURPLE_ORCHID,
+            BROWN_ORCHID,
+            GREEN_ORCHID,
+            RED_ORCHID,
+            BLACK_ORCHID
     };
 
     private static Block registerFlower(String name, MapColor white) {

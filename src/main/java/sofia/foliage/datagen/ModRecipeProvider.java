@@ -170,6 +170,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRTulip(exporter, ModBlocks.GREEN_TULIP, Items.GREEN_DYE);
         offerShapelessRTulip(exporter, ModBlocks.BLACK_TULIP, Items.BLACK_DYE);
 
+        offerShapelessOrchid(exporter, ModBlocks.WHITE_ORCHID, Items.WHITE_DYE);
+        offerShapelessOrchid(exporter, ModBlocks.ORANGE_ORCHID, Items.ORANGE_DYE);
+        offerShapelessOrchid(exporter, ModBlocks.MAGENTA_ORCHID, Items.MAGENTA_DYE);
+        offerShapelessOrchid(exporter, ModBlocks.LIGHT_BLUE_ORCHID, Items.LIGHT_BLUE_DYE);
+        offerShapelessOrchid(exporter, ModBlocks.YELLOW_ORCHID, Items.YELLOW_DYE);
+        offerShapelessOrchid(exporter, ModBlocks.LIME_ORCHID, Items.LIME_DYE);
+        offerShapelessOrchid(exporter, ModBlocks.PINK_ORCHID, Items.PINK_DYE);
+        offerShapelessOrchid(exporter, ModBlocks.GRAY_ORCHID, Items.GRAY_DYE);
+        offerShapelessOrchid(exporter, ModBlocks.LIGHT_GRAY_ORCHID, Items.LIGHT_GRAY_DYE);
+        offerShapelessOrchid(exporter, ModBlocks.CYAN_ORCHID, Items.CYAN_DYE);
+        offerShapelessOrchid(exporter, ModBlocks.PURPLE_ORCHID, Items.PURPLE_DYE);
+        offerShapelessOrchid(exporter, ModBlocks.BROWN_ORCHID, Items.BROWN_DYE);
+        offerShapelessOrchid(exporter, ModBlocks.GREEN_ORCHID, Items.GREEN_DYE);
+        offerShapelessOrchid(exporter, ModBlocks.RED_ORCHID, Items.RED_DYE);
+        offerShapelessOrchid(exporter, ModBlocks.BLACK_ORCHID, Items.BLACK_DYE);
+
     }
     private static void offerShapelessLily(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
         net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
@@ -232,6 +248,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.RED_TULIP)
                 .input(dye)
                 .criterion(hasItem(Items.RED_TULIP), conditionsFromItem(Items.RED_TULIP))
+                .offerTo(exporter);
+    }
+    private static void offerShapelessOrchid(RecipeExporter exporter, ItemConvertible output, ItemConvertible dye) {
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
+                .input(Items.BLUE_ORCHID)
+                .input(dye)
+                .criterion(hasItem(Items.BLUE_ORCHID), conditionsFromItem(Items.BLUE_ORCHID))
                 .offerTo(exporter);
     }
 }

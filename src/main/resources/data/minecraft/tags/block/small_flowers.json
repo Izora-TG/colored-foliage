@@ -124,6 +124,21 @@
     "colored-foliage:brown_tulip",
     "colored-foliage:green_tulip",
     "colored-foliage:red_tulip",
-    "colored-foliage:black_tulip"
+    "colored-foliage:black_tulip",
+    "colored-foliage:white_orchid",
+    "colored-foliage:orange_orchid",
+    "colored-foliage:magenta_orchid",
+    "colored-foliage:light_blue_orchid",
+    "colored-foliage:yellow_orchid",
+    "colored-foliage:lime_orchid",
+    "colored-foliage:pink_orchid",
+    "colored-foliage:gray_orchid",
+    "colored-foliage:light_gray_orchid",
+    "colored-foliage:cyan_orchid",
+    "colored-foliage:purple_orchid",
+    "colored-foliage:brown_orchid",
+    "colored-foliage:green_orchid",
+    "colored-foliage:red_orchid",
+    "colored-foliage:black_orchid"
   ]
 }

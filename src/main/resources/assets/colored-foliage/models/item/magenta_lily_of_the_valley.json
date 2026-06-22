@@ -1,3 +1,6 @@
 {
-  "parent": "colored-foliage:block/magenta_lily_of_the_valley"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "colored-foliage:block/valley_base"
+  }
 }

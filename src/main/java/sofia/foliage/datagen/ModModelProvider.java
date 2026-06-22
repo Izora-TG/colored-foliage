@@ -49,9 +49,9 @@ public class ModModelProvider extends FabricModelProvider {
                 String baseType = path.substring(path.lastIndexOf('_') + 1);
                 Identifier texture = Identifier.of(ColoredFoliage.MOD_ID, "block/" + baseType + "_base");
 
-                Models.TINTED_CROSS.upload(
+                Models.GENERATED.upload(
                         ModelIds.getItemModelId(flower.asItem()),
-                        TextureMap.cross(texture),
+                        TextureMap.layer0(texture),
                         itemModelGenerator.writer
                 );
             }

@@ -1,3 +1,6 @@
 {
-  "parent": "colored-foliage:block/light_gray_tulip"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "colored-foliage:block/tulip_base"
+  }
 }

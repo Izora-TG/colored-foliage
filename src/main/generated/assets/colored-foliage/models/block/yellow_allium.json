@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/tinted_cross",
+  "parent": "colored-foliage:block/layered_cross",
   "textures": {
-    "cross": "colored-foliage:block/allium_base"
+    "stem": "colored-foliage:block/allium_stem",
+    "blossom": "colored-foliage:block/allium_blossom"
   }
 }

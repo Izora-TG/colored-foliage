@@ -9,7 +9,7 @@ import sofia.foliage.ColoredFoliage;
 
 public class ModItems {
 
-    public static final Item RAINBOW_DYE = registerItem("rainbow_dye", new Item(new Item.Settings()));
+    public static final Item UNIVERSAL_DYE = registerItem("universal_dye", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ColoredFoliage.MOD_ID, name), item);

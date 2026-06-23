@@ -33,9 +33,10 @@ public class ColoredFoliageClient implements ClientModInitializer {
 				}, flower);
 
 				ColorProviderRegistry.ITEM.register((stack, tintIndex) -> {
-					return tintIndex == 0 ? ((sofia.foliage.block.DyeableFlowerBlock) flower).getMapColor().color : -1;
+					return tintIndex == 1 ? ((sofia.foliage.block.DyeableFlowerBlock) flower).getMapColor().color : -1;
 				}, flower.asItem());
 			}
 		}
 	}
 }
+

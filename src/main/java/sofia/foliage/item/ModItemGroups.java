@@ -20,7 +20,7 @@ public class ModItemGroups {
                         for (var flower : ModBlocks.COLORED_FLOWERS) {
                             entries.add(flower);
                         }
-                        entries.add(ModItems.RAINBOW_DYE);
+                        entries.add(ModItems.UNIVERSAL_DYE);
                     })
                     .build());
 

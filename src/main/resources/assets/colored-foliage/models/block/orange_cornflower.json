@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/tinted_cross",
+  "parent": "colored-foliage:block/layered_cross",
   "textures": {
-    "cross": "colored-foliage:block/cornflower_base"
+    "stem": "colored-foliage:block/cornflower_stem",
+    "blossom": "colored-foliage:block/cornflower_blossom"
   }
 }

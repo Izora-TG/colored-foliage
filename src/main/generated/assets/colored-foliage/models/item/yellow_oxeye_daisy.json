@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "colored-foliage:block/daisy_base"
+    "layer0": "colored-foliage:block/daisy_stem",
+    "layer1": "colored-foliage:block/daisy_blossom"
   }
 }

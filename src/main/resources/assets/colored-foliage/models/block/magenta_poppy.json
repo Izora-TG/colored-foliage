@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/tinted_cross",
+  "parent": "colored-foliage:block/layered_cross",
   "textures": {
-    "cross": "colored-foliage:block/poppy_base"
+    "stem": "colored-foliage:block/poppy_stem",
+    "blossom": "colored-foliage:block/poppy_blossom"
   }
 }

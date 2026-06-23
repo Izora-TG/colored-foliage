@@ -1,4 +1,4 @@
-// 1.21.1	2026-06-20T12:27:09.4941389	colored-foliage/Block Loot Tables
+// 1.21.1	2026-06-23T19:47:27.2261017	colored-foliage/Block Loot Tables
 f91a3d19c1ce9455884dcbac893e4dcc6acde866 data\colored-foliage\loot_table\blocks\pink_wither_rose.json
 689d56950b2c6e9c108111e09c3a26fd54360f94 data\colored-foliage\loot_table\blocks\cyan_allium.json
 a6dd9bcbfbbfe9fe6e7db344fa819acd4ef479b1 data\colored-foliage\loot_table\blocks\light_blue_lily_of_the_valley.json
@@ -96,8 +96,8 @@ f0a177ec099709b40981d56ae5ce0ed0bad4bccf data\colored-foliage\loot_table\blocks\
 ef160ff29713f097c7c680f33532d63baca74927 data\colored-foliage\loot_table\blocks\green_lily_of_the_valley.json
 a8323c42023485a16e0b1ad6b27e8013a2ed85c6 data\colored-foliage\loot_table\blocks\lime_cornflower.json
 02454cff5327ac72d0a2fe497ff097df95ecb8a2 data\colored-foliage\loot_table\blocks\lime_sunflower.json
-c41fa90332ff449ffcd95a26ee1cc0bffb7539d8 data\colored-foliage\loot_table\blocks\black_lily_of_the_valley.json
 f68f7a15939ab455743ccb8aebc4459e1f1d0b75 data\colored-foliage\loot_table\blocks\magenta_sunflower.json
+c41fa90332ff449ffcd95a26ee1cc0bffb7539d8 data\colored-foliage\loot_table\blocks\black_lily_of_the_valley.json
 f049c915817fc9ed863a0a7d1f7e313c9d2fb06d data\colored-foliage\loot_table\blocks\pink_allium.json
 862efba309b7400a6adf6ebce0580d3d686ef480 data\colored-foliage\loot_table\blocks\black_allium.json
 faec9ebcf278b0e611e7d701944ee92128653ea6 data\colored-foliage\loot_table\blocks\orange_wither_rose.json

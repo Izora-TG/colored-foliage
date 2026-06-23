@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "colored-foliage:block/tulip_stem",
-    "layer1": "colored-foliage:block/tulip_blossom"
-  }
-}

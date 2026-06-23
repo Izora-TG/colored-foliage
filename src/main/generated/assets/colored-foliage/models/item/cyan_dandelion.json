@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "colored-foliage:block/dandelion_stem",
-    "layer1": "colored-foliage:block/dandelion_blossom"
+    "layer0": "colored-foliage:block/dandelion_blossom",
+    "layer1": "colored-foliage:block/dandelion_stem"
   }
 }

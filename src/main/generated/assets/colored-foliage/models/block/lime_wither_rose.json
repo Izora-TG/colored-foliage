@@ -1,7 +1,7 @@
 {
   "parent": "colored-foliage:block/layered_cross",
   "textures": {
-    "stem": "colored-foliage:block/rose_stem",
-    "blossom": "colored-foliage:block/rose_blossom"
+    "blossom": "colored-foliage:block/rose_blossom",
+    "stem": "colored-foliage:block/rose_stem"
   }
 }

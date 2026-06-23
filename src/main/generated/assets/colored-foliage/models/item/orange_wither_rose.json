@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "colored-foliage:block/rose_stem",
-    "layer1": "colored-foliage:block/rose_blossom"
+    "layer0": "colored-foliage:block/rose_blossom",
+    "layer1": "colored-foliage:block/rose_stem"
   }
 }

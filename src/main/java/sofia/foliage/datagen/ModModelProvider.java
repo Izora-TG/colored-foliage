@@ -74,8 +74,8 @@ public class ModModelProvider extends FabricModelProvider {
                 TWO_LAYER_GENERATED.upload(
                         ModelIds.getItemModelId(flower.asItem()),
                         new TextureMap()
-                                .put(TextureKey.LAYER0, stemTexture)
-                                .put(TextureKey.LAYER1, blossomTexture),
+                                .put(TextureKey.LAYER0, blossomTexture)
+                                .put(TextureKey.LAYER1, stemTexture),
                         itemModelGenerator.writer
                 );
             }

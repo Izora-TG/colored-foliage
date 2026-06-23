@@ -1,7 +1,0 @@
-{
-  "parent": "colored-foliage:block/layered_cross",
-  "textures": {
-    "stem": "colored-foliage:block/cornflower_stem",
-    "blossom": "colored-foliage:block/cornflower_blossom"
-  }
-}

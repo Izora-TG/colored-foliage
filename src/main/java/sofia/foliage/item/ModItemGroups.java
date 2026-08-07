@@ -20,6 +20,12 @@ public class ModItemGroups {
                         for (var flower : ModBlocks.COLORED_FLOWERS) {
                             entries.add(flower);
                         }
+                        for (var suns : ModBlocks.SUNFLOWERS) {
+                            entries.add(suns);
+                        }
+                        for (var grass : ModBlocks.GRASSES) {
+                            entries.add(grass);
+                        }
                         entries.add(ModItems.UNIVERSAL_DYE);
                     })
                     .build());

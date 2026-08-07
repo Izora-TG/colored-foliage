@@ -184,6 +184,40 @@ public class ModBlocks {
     public static final Block RED_ORCHID = registerDyeableFlower("red_orchid", MapColor.RED);
     public static final Block BLACK_ORCHID = registerDyeableFlower("black_orchid", MapColor.BLACK);
 
+    public static final Block WHITE_SHORT_GRASS = registerDyeableShortGrass("white_short_grass", MapColor.WHITE);
+    public static final Block ORANGE_SHORT_GRASS = registerDyeableShortGrass("orange_short_grass", MapColor.ORANGE);
+    public static final Block MAGENTA_SHORT_GRASS = registerDyeableShortGrass("magenta_short_grass", MapColor.MAGENTA);
+    public static final Block LIGHT_BLUE_SHORT_GRASS = registerDyeableShortGrass("light_blue_short_grass", MapColor.LIGHT_BLUE);
+    public static final Block YELLOW_SHORT_GRASS = registerDyeableShortGrass("yellow_short_grass", MapColor.YELLOW);
+    public static final Block LIME_SHORT_GRASS = registerDyeableShortGrass("lime_short_grass", MapColor.LIME);
+    public static final Block PINK_SHORT_GRASS = registerDyeableShortGrass("pink_short_grass", MapColor.PINK);
+    public static final Block GRAY_SHORT_GRASS = registerDyeableShortGrass("gray_short_grass", MapColor.GRAY);
+    public static final Block LIGHT_GRAY_SHORT_GRASS = registerDyeableShortGrass("light_gray_short_grass", MapColor.LIGHT_GRAY);
+    public static final Block CYAN_SHORT_GRASS = registerDyeableShortGrass("cyan_short_grass", MapColor.CYAN);
+    public static final Block PURPLE_SHORT_GRASS = registerDyeableShortGrass("purple_short_grass", MapColor.PURPLE);
+    public static final Block BROWN_SHORT_GRASS = registerDyeableShortGrass("brown_short_grass", MapColor.BROWN);
+    public static final Block RED_SHORT_GRASS = registerDyeableShortGrass("red_short_grass", MapColor.RED);
+    public static final Block BLACK_SHORT_GRASS = registerDyeableShortGrass("black_short_grass", MapColor.BLACK);
+    public static final Block BLUE_SHORT_GRASS = registerDyeableShortGrass("blue_short_grass", MapColor.BLUE);
+
+    public static final Block[] GRASSES = {
+            WHITE_SHORT_GRASS,
+            ORANGE_SHORT_GRASS,
+            MAGENTA_SHORT_GRASS,
+            LIGHT_BLUE_SHORT_GRASS,
+            YELLOW_SHORT_GRASS,
+            LIME_SHORT_GRASS,
+            PINK_SHORT_GRASS,
+            GRAY_SHORT_GRASS,
+            LIGHT_GRAY_SHORT_GRASS,
+            CYAN_SHORT_GRASS,
+            PURPLE_SHORT_GRASS,
+            BROWN_SHORT_GRASS,
+            RED_SHORT_GRASS,
+            BLACK_SHORT_GRASS,
+            BLUE_SHORT_GRASS
+    };
+
     public static final Block[] ORCHIDS = {
             WHITE_ORCHID,
             ORANGE_ORCHID,
@@ -375,22 +409,6 @@ public class ModBlocks {
             GREEN_CORNFLOWER,
             RED_CORNFLOWER,
             BLACK_CORNFLOWER,
-            WHITE_SUNFLOWER,
-            ORANGE_SUNFLOWER,
-            MAGENTA_SUNFLOWER,
-            LIGHT_BLUE_SUNFLOWER,
-            YELLOW_SUNFLOWER,
-            LIME_SUNFLOWER,
-            PINK_SUNFLOWER,
-            GRAY_SUNFLOWER,
-            LIGHT_GRAY_SUNFLOWER,
-            CYAN_SUNFLOWER,
-            PURPLE_SUNFLOWER,
-            BLUE_SUNFLOWER,
-            BROWN_SUNFLOWER,
-            GREEN_SUNFLOWER,
-            RED_SUNFLOWER,
-            BLACK_SUNFLOWER,
             WHITE_LILY_OF_THE_VALLEY,
             ORANGE_LILY_OF_THE_VALLEY,
             MAGENTA_LILY_OF_THE_VALLEY,
@@ -482,6 +500,19 @@ public class ModBlocks {
                             .pistonBehavior(PistonBehavior.DESTROY)));
     }
 
+    private static Block registerDyeableShortGrass(String name, MapColor color) {
+        return registerBlock(name,
+            new DyeableShortGrassBlock(color,
+                    AbstractBlock.Settings.create()
+                            .mapColor(color)
+                            .noCollision()
+                            .breakInstantly()
+                            .sounds(BlockSoundGroup.GRASS)
+                            .offset(AbstractBlock.OffsetType.XYZ)
+                            .pistonBehavior(PistonBehavior.DESTROY)
+                            .replaceable()));
+    }
+
     private static Block registerDyeableFlower(String name, MapColor color) {
         return registerBlock(name,
             new DyeableFlowerBlock(color, StatusEffects.NIGHT_VISION,
@@ -528,4 +559,3 @@ public class ModBlocks {
         });
     }
 }
-

@@ -162,5 +162,20 @@
   "block.colored-foliage.red_orchid": "Red Orchid",
   "block.colored-foliage.white_orchid": "White Orchid",
   "block.colored-foliage.yellow_orchid": "Yellow Orchid",
-  "block.colored-foliage.cyan_orchid": "Cyan Orchid"
+  "block.colored-foliage.cyan_orchid": "Cyan Orchid",
+  "block.colored-foliage.black_short_grass": "Black Short Grass",
+  "block.colored-foliage.blue_short_grass": "Blue Short Grass",
+  "block.colored-foliage.brown_short_grass": "Brown Short Grass",
+  "block.colored-foliage.cyan_short_grass": "Cyan Short Grass",
+  "block.colored-foliage.gray_short_grass": "Gray Short Grass",
+  "block.colored-foliage.light_blue_short_grass": "Light Blue Short Grass",
+  "block.colored-foliage.light_gray_short_grass": "Light Gray Short Grass",
+  "block.colored-foliage.lime_short_grass": "Lime Short Grass",
+  "block.colored-foliage.magenta_short_grass": "Magenta Short Grass",
+  "block.colored-foliage.orange_short_grass": "Orange Short Grass",
+  "block.colored-foliage.pink_short_grass": "Pink Short Grass",
+  "block.colored-foliage.purple_short_grass": "Purple Short Grass",
+  "block.colored-foliage.red_short_grass": "Red Short Grass",
+  "block.colored-foliage.white_short_grass": "White Short Grass",
+  "block.colored-foliage.yellow_short_grass": "Yellow Short Grass"
 }

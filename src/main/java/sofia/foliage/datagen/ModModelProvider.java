@@ -59,6 +59,17 @@ public class ModModelProvider extends FabricModelProvider {
                 );
             }
         }
+        for (var grass : ModBlocks.GRASSES) {
+            if (grass instanceof sofia.foliage.block.DyeableShortGrassBlock) {
+                Identifier blockId = Registries.BLOCK.getId(grass);
+                String path = blockId.getPath();
+                String baseType = path.substring(path.lastIndexOf('_') + 1);
+                Identifier stemTexture = Identifier.of(ColoredFoliage.MOD_ID, "block/" + baseType + "_stem");
+                Identifier blossomTexture = Identifier.of(ColoredFoliage.MOD_ID, "block/" + baseType + "_stem");
+
+                Identifier modelId = net.minecraft.data.client.Models.TINTED_CROSS.upload(grass, net.minecraft.data.client.TextureMap.cross(stemTexture), blockStateModelGenerator.modelCollector); blockStateModelGenerator.blockStateCollector.accept(BlockStateModelGenerator.createSingletonBlockState(grass, modelId));
+            }
+        }
     }
 
     @Override
@@ -80,5 +91,20 @@ public class ModModelProvider extends FabricModelProvider {
                 );
             }
         }
+        for (var grass : ModBlocks.GRASSES) {
+            if (grass instanceof sofia.foliage.block.DyeableShortGrassBlock) {
+                Identifier blockId = Registries.BLOCK.getId(grass);
+                String path = blockId.getPath();
+                String baseType = path.substring(path.lastIndexOf('_') + 1);
+                Identifier stemTexture = Identifier.of(ColoredFoliage.MOD_ID, "block/" + baseType + "_stem");
+                Identifier blossomTexture = Identifier.of(ColoredFoliage.MOD_ID, "block/" + baseType + "_stem");
+
+                net.minecraft.data.client.Models.GENERATED.upload(ModelIds.getItemModelId(grass.asItem()), net.minecraft.data.client.TextureMap.layer0(stemTexture), itemModelGenerator.writer);
+            }
+        }
     }
 }
+
+
+
+

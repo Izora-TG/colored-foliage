@@ -13,22 +13,22 @@ public class ModTranslationProvider extends FabricLanguageProvider {
 
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
-        translationBuilder.add("block.colored-foliage.black_orchid", "Black Orchid");
-        translationBuilder.add("block.colored-foliage.white_orchid", "White Orchid");
-        translationBuilder.add("block.colored-foliage.orange_orchid", "Orange Orchid");
-        translationBuilder.add("block.colored-foliage.magenta_orchid", "Magenta Orchid");
-        translationBuilder.add("block.colored-foliage.light_blue_orchid", "Light Blue Orchid");
-        translationBuilder.add("block.colored-foliage.yellow_orchid", "Yellow Orchid");
-        translationBuilder.add("block.colored-foliage.lime_orchid", "Lime Orchid");
-        translationBuilder.add("block.colored-foliage.pink_orchid", "Pink Orchid");
-        translationBuilder.add("block.colored-foliage.gray_orchid", "Gray Orchid");
-        translationBuilder.add("block.colored-foliage.light_gray_orchid", "Light Gray Orchid");
-        translationBuilder.add("block.colored-foliage.cyan_orchid", "Cyan Orchid");
-        translationBuilder.add("block.colored-foliage.purple_orchid", "Purple Orchid");
-        //translationBuilder.add("block.colored-foliage.blue_orchid", "Blue Orchid");
-        translationBuilder.add("block.colored-foliage.brown_orchid", "Brown Orchid");
-        translationBuilder.add("block.colored-foliage.green_orchid", "Green Orchid");
-        translationBuilder.add("block.colored-foliage.red_orchid", "Red Orchid");
+        translationBuilder.add("block.colored-foliage.black_short_grass", "Black Short Grass");
+        translationBuilder.add("block.colored-foliage.white_short_grass", "White Short Grass");
+        translationBuilder.add("block.colored-foliage.orange_short_grass", "Orange Short Grass");
+        translationBuilder.add("block.colored-foliage.magenta_short_grass", "Magenta Short Grass");
+        translationBuilder.add("block.colored-foliage.light_blue_short_grass", "Light Blue Short Grass");
+        translationBuilder.add("block.colored-foliage.yellow_short_grass", "Yellow Short Grass");
+        translationBuilder.add("block.colored-foliage.lime_short_grass", "Lime Short Grass");
+        translationBuilder.add("block.colored-foliage.pink_short_grass", "Pink Short Grass");
+        translationBuilder.add("block.colored-foliage.gray_short_grass", "Gray Short Grass");
+        translationBuilder.add("block.colored-foliage.light_gray_short_grass", "Light Gray Short Grass");
+        translationBuilder.add("block.colored-foliage.cyan_short_grass", "Cyan Short Grass");
+        translationBuilder.add("block.colored-foliage.purple_short_grass", "Purple Short Grass");
+        translationBuilder.add("block.colored-foliage.blue_short_grass", "Blue Short Grass");
+        translationBuilder.add("block.colored-foliage.brown_short_grass", "Brown Short Grass");
+        //translationBuilder.add("block.colored-foliage.green_short_grass", "Green Short Grass");
+        translationBuilder.add("block.colored-foliage.red_short_grass", "Red Short Grass");
 
     }
 }

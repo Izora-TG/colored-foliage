@@ -1,0 +1,6 @@
+22{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "colored-foliage:block/grass_stem"
+  }
+}

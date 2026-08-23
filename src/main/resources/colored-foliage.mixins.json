@@ -3,7 +3,9 @@
 	"package": "sofia.foliage.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"LadderBlockMixin",
+		"CandleBlockMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -200,6 +200,22 @@ public class ModBlocks {
     public static final Block BLACK_SHORT_GRASS = registerDyeableShortGrass("black_short_grass", MapColor.BLACK);
     public static final Block BLUE_SHORT_GRASS = registerDyeableShortGrass("blue_short_grass", MapColor.BLUE);
 
+    public static final Block WHITE_TALL_GRASS = registerTallGrass("white_tall_grass", MapColor.WHITE);
+    public static final Block ORANGE_TALL_GRASS = registerTallGrass("orange_tall_grass", MapColor.ORANGE);
+    public static final Block MAGENTA_TALL_GRASS = registerTallGrass("magenta_tall_grass", MapColor.MAGENTA);
+    public static final Block LIGHT_BLUE_TALL_GRASS = registerTallGrass("light_blue_tall_grass", MapColor.LIGHT_BLUE);
+    public static final Block YELLOW_TALL_GRASS = registerTallGrass("yellow_tall_grass", MapColor.YELLOW);
+    public static final Block LIME_TALL_GRASS = registerTallGrass("lime_tall_grass", MapColor.LIME);
+    public static final Block PINK_TALL_GRASS = registerTallGrass("pink_tall_grass", MapColor.PINK);
+    public static final Block GRAY_TALL_GRASS = registerTallGrass("gray_tall_grass", MapColor.GRAY);
+    public static final Block LIGHT_GRAY_TALL_GRASS = registerTallGrass("light_gray_tall_grass", MapColor.LIGHT_GRAY);
+    public static final Block CYAN_TALL_GRASS = registerTallGrass("cyan_tall_grass", MapColor.CYAN);
+    public static final Block PURPLE_TALL_GRASS = registerTallGrass("purple_tall_grass", MapColor.PURPLE);
+    public static final Block BROWN_TALL_GRASS = registerTallGrass("brown_tall_grass", MapColor.BROWN);
+    public static final Block RED_TALL_GRASS = registerTallGrass("red_tall_grass", MapColor.RED);
+    public static final Block BLACK_TALL_GRASS = registerTallGrass("black_tall_grass", MapColor.BLACK);
+    public static final Block BLUE_TALL_GRASS = registerTallGrass("blue_tall_grass", MapColor.BLUE);
+
     public static final Block[] GRASSES = {
             WHITE_SHORT_GRASS,
             ORANGE_SHORT_GRASS,
@@ -215,7 +231,22 @@ public class ModBlocks {
             BROWN_SHORT_GRASS,
             RED_SHORT_GRASS,
             BLACK_SHORT_GRASS,
-            BLUE_SHORT_GRASS
+            BLUE_SHORT_GRASS,
+            WHITE_TALL_GRASS,
+            ORANGE_TALL_GRASS,
+            MAGENTA_TALL_GRASS,
+            LIGHT_BLUE_TALL_GRASS,
+            YELLOW_TALL_GRASS,
+            LIME_TALL_GRASS,
+            PINK_TALL_GRASS,
+            GRAY_TALL_GRASS,
+            LIGHT_GRAY_TALL_GRASS,
+            CYAN_TALL_GRASS,
+            PURPLE_TALL_GRASS,
+            BROWN_TALL_GRASS,
+            RED_TALL_GRASS,
+            BLACK_TALL_GRASS,
+            BLUE_TALL_GRASS
     };
 
     public static final Block[] ORCHIDS = {
@@ -538,6 +569,20 @@ public class ModBlocks {
                 new TallBlockItem(block, new Item.Settings()));
         return Registry.register(Registries.BLOCK, Identifier.of(ColoredFoliage.MOD_ID, name), block);
     }
+
+    private static Block registerTallGrass(String name, MapColor color) {
+        Block block = new DyeableTallFlowerBlock(color, AbstractBlock.Settings.create()
+                .mapColor(color)
+                .noCollision()
+                .breakInstantly()
+                .sounds(BlockSoundGroup.GRASS)
+                .offset(AbstractBlock.OffsetType.XZ)
+                .pistonBehavior(PistonBehavior.DESTROY));
+        Registry.register(Registries.ITEM, Identifier.of(ColoredFoliage.MOD_ID, name),
+                new TallBlockItem(block, new Item.Settings()));
+        return Registry.register(Registries.BLOCK, Identifier.of(ColoredFoliage.MOD_ID, name), block);
+    }
+
 
 
     private static Block registerBlock(String name, Block block) {

@@ -202,6 +202,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessSGrass(exporter, ModBlocks.RED_SHORT_GRASS, Items.RED_DYE);
         offerShapelessSGrass(exporter, ModBlocks.BLACK_SHORT_GRASS, Items.BLACK_DYE);
 
+        offerShapelessTGrass(exporter, ModBlocks.WHITE_TALL_GRASS, Items.WHITE_DYE);
+        offerShapelessTGrass(exporter, ModBlocks.ORANGE_TALL_GRASS, Items.ORANGE_DYE);
+        offerShapelessTGrass(exporter, ModBlocks.MAGENTA_TALL_GRASS, Items.MAGENTA_DYE);
+        offerShapelessTGrass(exporter, ModBlocks.LIGHT_BLUE_TALL_GRASS, Items.LIGHT_BLUE_DYE);
+        offerShapelessTGrass(exporter, ModBlocks.YELLOW_TALL_GRASS, Items.YELLOW_DYE);
+        offerShapelessTGrass(exporter, ModBlocks.LIME_TALL_GRASS, Items.LIME_DYE);
+        offerShapelessTGrass(exporter, ModBlocks.PINK_TALL_GRASS, Items.PINK_DYE);
+        offerShapelessTGrass(exporter, ModBlocks.GRAY_TALL_GRASS, Items.GRAY_DYE);
+        offerShapelessTGrass(exporter, ModBlocks.LIGHT_GRAY_TALL_GRASS, Items.LIGHT_GRAY_DYE);
+        offerShapelessTGrass(exporter, ModBlocks.CYAN_TALL_GRASS, Items.CYAN_DYE);
+        offerShapelessTGrass(exporter, ModBlocks.PURPLE_TALL_GRASS, Items.PURPLE_DYE);
+        offerShapelessTGrass(exporter, ModBlocks.BLUE_TALL_GRASS, Items.BLUE_DYE);
+        offerShapelessTGrass(exporter, ModBlocks.BROWN_TALL_GRASS, Items.BROWN_DYE);
+        offerShapelessTGrass(exporter, ModBlocks.RED_TALL_GRASS, Items.RED_DYE);
+        offerShapelessTGrass(exporter, ModBlocks.BLACK_TALL_GRASS, Items.BLACK_DYE);
+
     }
     private static void offerShapelessLily(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
         net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
@@ -278,6 +294,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.SHORT_GRASS)
                 .input(dye)
                 .criterion(hasItem(Items.SHORT_GRASS), conditionsFromItem(Items.SHORT_GRASS))
+                .offerTo(exporter);
+    }
+    private static void offerShapelessTGrass(RecipeExporter exporter, ItemConvertible output, ItemConvertible dye) {
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
+                .input(Items.TALL_GRASS)
+                .input(dye)
+                .criterion(hasItem(Items.TALL_GRASS), conditionsFromItem(Items.TALL_GRASS))
                 .offerTo(exporter);
     }
 }

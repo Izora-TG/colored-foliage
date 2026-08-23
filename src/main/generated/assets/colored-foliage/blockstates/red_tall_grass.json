@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "colored-foliage:block/red_tall_grass_bottom"
+    },
+    "half=upper": {
+      "model": "colored-foliage:block/red_tall_grass_top"
+    }
+  }
+}

@@ -40,12 +40,12 @@ public class ColoredFoliageClient implements ClientModInitializer {
 		for (Block grass : ModBlocks.GRASSES) {
 			BlockRenderLayerMap.INSTANCE.putBlock(grass, RenderLayer.getCutout());
 
-			if (grass instanceof DyeableTallFlowerBlock) {
-				ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
-					if (state.get(TallPlantBlock.HALF) == DoubleBlockHalf.UPPER && tintIndex == 0) {
-						return ((DyeableTallFlowerBlock) grass).getMapColor().color;
-					}
-					return -1;
+            if (grass instanceof DyeableTallFlowerBlock) {
+                ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+                    if (tintIndex == 0) {
+                        return ((DyeableTallFlowerBlock) grass).getMapColor().color;
+                    }
+                    return -1;
 				}, grass);
 
 				ColorProviderRegistry.ITEM.register((stack, tintIndex) -> {

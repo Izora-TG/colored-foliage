@@ -216,6 +216,22 @@ public class ModBlocks {
     public static final Block BLACK_TALL_GRASS = registerTallGrass("black_tall_grass", MapColor.BLACK);
     public static final Block BLUE_TALL_GRASS = registerTallGrass("blue_tall_grass", MapColor.BLUE);
 
+    public static final Block WHITE_SHORT_FERN = registerDyeableShortGrass("white_short_fern", MapColor.WHITE);
+    public static final Block ORANGE_SHORT_FERN = registerDyeableShortGrass("orange_short_fern", MapColor.ORANGE);
+    public static final Block MAGENTA_SHORT_FERN = registerDyeableShortGrass("magenta_short_fern", MapColor.MAGENTA);
+    public static final Block LIGHT_BLUE_SHORT_FERN = registerDyeableShortGrass("light_blue_short_fern", MapColor.LIGHT_BLUE);
+    public static final Block YELLOW_SHORT_FERN = registerDyeableShortGrass("yellow_short_fern", MapColor.YELLOW);
+    public static final Block LIME_SHORT_FERN = registerDyeableShortGrass("lime_short_fern", MapColor.LIME);
+    public static final Block PINK_SHORT_FERN = registerDyeableShortGrass("pink_short_fern", MapColor.PINK);
+    public static final Block GRAY_SHORT_FERN = registerDyeableShortGrass("gray_short_fern", MapColor.GRAY);
+    public static final Block LIGHT_GRAY_SHORT_FERN = registerDyeableShortGrass("light_gray_short_fern", MapColor.LIGHT_GRAY);
+    public static final Block CYAN_SHORT_FERN = registerDyeableShortGrass("cyan_short_fern", MapColor.CYAN);
+    public static final Block PURPLE_SHORT_FERN = registerDyeableShortGrass("purple_short_fern", MapColor.PURPLE);
+    public static final Block BROWN_SHORT_FERN = registerDyeableShortGrass("brown_short_fern", MapColor.BROWN);
+    public static final Block RED_SHORT_FERN = registerDyeableShortGrass("red_short_fern", MapColor.RED);
+    public static final Block BLACK_SHORT_FERN = registerDyeableShortGrass("black_short_fern", MapColor.BLACK);
+    public static final Block BLUE_SHORT_FERN = registerDyeableShortGrass("blue_short_fern", MapColor.BLUE);
+
     public static final Block[] GRASSES = {
             WHITE_SHORT_GRASS,
             ORANGE_SHORT_GRASS,
@@ -246,7 +262,22 @@ public class ModBlocks {
             BROWN_TALL_GRASS,
             RED_TALL_GRASS,
             BLACK_TALL_GRASS,
-            BLUE_TALL_GRASS
+            BLUE_TALL_GRASS,
+            WHITE_SHORT_FERN,
+            ORANGE_SHORT_FERN,
+            MAGENTA_SHORT_FERN,
+            LIGHT_BLUE_SHORT_FERN,
+            YELLOW_SHORT_FERN,
+            LIME_SHORT_FERN,
+            PINK_SHORT_FERN,
+            GRAY_SHORT_FERN,
+            LIGHT_GRAY_SHORT_FERN,
+            CYAN_SHORT_FERN,
+            PURPLE_SHORT_FERN,
+            BROWN_SHORT_FERN,
+            RED_SHORT_FERN,
+            BLACK_SHORT_FERN,
+            BLUE_SHORT_FERN
     };
 
     public static final Block[] ORCHIDS = {

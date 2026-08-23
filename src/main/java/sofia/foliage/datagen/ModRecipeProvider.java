@@ -218,6 +218,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessTGrass(exporter, ModBlocks.RED_TALL_GRASS, Items.RED_DYE);
         offerShapelessTGrass(exporter, ModBlocks.BLACK_TALL_GRASS, Items.BLACK_DYE);
 
+        offerShapelessSFern(exporter, ModBlocks.WHITE_SHORT_FERN, Items.WHITE_DYE);
+        offerShapelessSFern(exporter, ModBlocks.ORANGE_SHORT_FERN, Items.ORANGE_DYE);
+        offerShapelessSFern(exporter, ModBlocks.MAGENTA_SHORT_FERN, Items.MAGENTA_DYE);
+        offerShapelessSFern(exporter, ModBlocks.LIGHT_BLUE_SHORT_FERN, Items.LIGHT_BLUE_DYE);
+        offerShapelessSFern(exporter, ModBlocks.YELLOW_SHORT_FERN, Items.YELLOW_DYE);
+        offerShapelessSFern(exporter, ModBlocks.LIME_SHORT_FERN, Items.LIME_DYE);
+        offerShapelessSFern(exporter, ModBlocks.PINK_SHORT_FERN, Items.PINK_DYE);
+        offerShapelessSFern(exporter, ModBlocks.GRAY_SHORT_FERN, Items.GRAY_DYE);
+        offerShapelessSFern(exporter, ModBlocks.LIGHT_GRAY_SHORT_FERN, Items.LIGHT_GRAY_DYE);
+        offerShapelessSFern(exporter, ModBlocks.CYAN_SHORT_FERN, Items.CYAN_DYE);
+        offerShapelessSFern(exporter, ModBlocks.PURPLE_SHORT_FERN, Items.PURPLE_DYE);
+        offerShapelessSFern(exporter, ModBlocks.BLUE_SHORT_FERN, Items.BLUE_DYE);
+        offerShapelessSFern(exporter, ModBlocks.BROWN_SHORT_FERN, Items.BROWN_DYE);
+        offerShapelessSFern(exporter, ModBlocks.RED_SHORT_FERN, Items.RED_DYE);
+        offerShapelessSFern(exporter, ModBlocks.BLACK_SHORT_FERN, Items.BLACK_DYE);
+
     }
     private static void offerShapelessLily(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
         net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
@@ -301,6 +317,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.TALL_GRASS)
                 .input(dye)
                 .criterion(hasItem(Items.TALL_GRASS), conditionsFromItem(Items.TALL_GRASS))
+                .offerTo(exporter);
+    }
+    private static void offerShapelessSFern(RecipeExporter exporter, ItemConvertible output, ItemConvertible dye) {
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
+                .input(Items.FERN)
+                .input(dye)
+                .criterion(hasItem(Items.FERN), conditionsFromItem(Items.FERN))
                 .offerTo(exporter);
     }
 }

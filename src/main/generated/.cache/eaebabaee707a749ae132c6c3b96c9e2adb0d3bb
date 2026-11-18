@@ -1,4 +1,4 @@
-// 1.20.1	2026-11-18T11:34:36.814527936	colored-foliage/Recipes
+// 1.20.1	2026-11-18T11:56:09.582508948	colored-foliage/Recipes
 428e3437e4deed3915a8d13bcddea6459f2fa90e data/colored-foliage/advancements/recipes/decorations/brown_short_grass.json
 ed95de12b4232162e5c2f3d98c2721738bd1056f data/colored-foliage/advancements/recipes/decorations/gray_cornflower.json
 64dac9c8bb2f29f8ee9fb08658a2425a55ddf3da data/colored-foliage/recipes/yellow_poppy.json
@@ -10,6 +10,7 @@ b8e0177de8af257c78693130c556b1dfc4415fb8 data/colored-foliage/advancements/recip
 74d3a5181d1f0c87cadf2e27f2df9a1e2281c7a8 data/colored-foliage/advancements/recipes/decorations/gray_tall_grass.json
 1aaca2501ba81dfc97b8dbff0ed93f5913db3691 data/colored-foliage/recipes/green_tulip.json
 21c0102ee2fd698520e0580cf8a605a95f6a3aa5 data/colored-foliage/advancements/recipes/decorations/black_tall_grass.json
+3bb9d5c1bbf654d6bcd431a0d120b3ebf27b3a28 data/colored-foliage/recipes/dye_station.json
 b15076f01036973c8ff8cb959a6bec15b00cfe75 data/colored-foliage/recipes/orange_short_fern.json
 65f9e3b78144906b978b5d8509a4ca016552abc4 data/colored-foliage/advancements/recipes/decorations/purple_short_fern.json
 64efd9734dbda39bd19a1b9a6aa7c43f72ff04f4 data/colored-foliage/advancements/recipes/decorations/light_gray_short_fern.json
@@ -61,8 +62,8 @@ b84ededdf19065d9fdb18099ca28f244d5eaf12c data/colored-foliage/recipes/lime_cornf
 54d138ce6f393300f6f5b79687952c70a6e264b2 data/colored-foliage/recipes/brown_tulip.json
 701ab1956c6437bec620334fed13ec6c6265d93f data/colored-foliage/recipes/brown_orchid.json
 545a9b8aee80fe4936974b97fd4c59baaf1ecefd data/colored-foliage/recipes/gray_short_grass.json
-e39a1cb81795c3b2d3d83b894388fdc73ddf9814 data/colored-foliage/advancements/recipes/decorations/brown_tulip.json
 c6d927b7f2719bb8e7d95a310a00d5d8977ed900 data/colored-foliage/advancements/recipes/decorations/black_tulip.json
+e39a1cb81795c3b2d3d83b894388fdc73ddf9814 data/colored-foliage/advancements/recipes/decorations/brown_tulip.json
 424f38fdf619e8a84221fa29f29534a49bf75a1e data/colored-foliage/recipes/yellow_short_fern.json
 7ef63f4d89e2c85dc5720b19f54b288857862138 data/colored-foliage/recipes/cyan_tulip.json
 f508da32abcd55ecc2ad92e2256c78685d398101 data/colored-foliage/advancements/recipes/decorations/light_gray_tulip.json
@@ -193,6 +194,7 @@ e89c6d73a9a40d851e6e696df01c21af4bf037c8 data/colored-foliage/advancements/recip
 fa20730d3e14e7a9852dd0156baa637d24643598 data/colored-foliage/recipes/pink_tall_grass.json
 076bcdb57da8cd2e8f933fe7e6f1d8820cb1588b data/colored-foliage/advancements/recipes/decorations/green_allium.json
 5a8c4325ee7b2b2518cb16bd65cd17aa082487a8 data/colored-foliage/advancements/recipes/decorations/yellow_sunflower.json
+acb0ef0540f3fd987e83869b4c6d8765af0f6646 data/colored-foliage/advancements/recipes/decorations/dye_station.json
 c3279bddee01ffc4561fba26c1a5224a99dc95e9 data/colored-foliage/advancements/recipes/decorations/pink_short_grass.json
 c6cd437a7c2158de04348b5cd77acc7ab8646647 data/colored-foliage/advancements/recipes/decorations/yellow_tulip.json
 f7208de4005caa851331b44f897a2b156942ef1c data/colored-foliage/recipes/red_cornflower.json
@@ -228,6 +230,7 @@ b167ba768ef557e91f0c8337ff10ae628eaa890c data/colored-foliage/recipes/cyan_cornf
 768e4641390e23eded5176e4bbcf32ed2182119f data/colored-foliage/recipes/red_wither_rose.json
 fa4925aed3b4eacd7b0055016c2df18889f7286e data/colored-foliage/recipes/yellow_short_grass.json
 fcfb58d333cd095846d2fc19aab02c12972ec049 data/colored-foliage/recipes/lime_short_grass.json
+137ab548d381881c71e52b2836cd5c1a7c168014 data/colored-foliage/recipes/universal_dye.json
 5fb8df6cc2539cbd09522f443691b3d4243f671e data/colored-foliage/recipes/black_cornflower.json
 c1dc98abe098cba7069180907f57c06672bad3a7 data/colored-foliage/recipes/light_blue_short_fern.json
 c76e0318508824fd215b5d6734cca1c5402935b7 data/colored-foliage/advancements/recipes/decorations/magenta_wither_rose.json
@@ -326,6 +329,7 @@ e0bc3861b3325718cfbb7e29b17b6e17980576a1 data/colored-foliage/advancements/recip
 5d4886604a7541712b7856256df8ea758c920cf5 data/colored-foliage/recipes/magenta_wither_rose.json
 366f38729fe3c0850549c52b7b0b024c390431c8 data/colored-foliage/advancements/recipes/decorations/yellow_orchid.json
 ffefa9637580619566fc6dd9f39d3fb735c15e7f data/colored-foliage/advancements/recipes/decorations/yellow_oxeye_daisy.json
+549ec761dde20a6356bd834de16b6e92762ab4e5 data/colored-foliage/advancements/recipes/misc/universal_dye.json
 e732d32769d9014cb1a9f6c5d3a1d6f7d0c9ec28 data/colored-foliage/recipes/gray_cornflower.json
 dd7a2d6ffc874bc56cf1f5bd01d363b4cb12f29b data/colored-foliage/advancements/recipes/decorations/blue_wither_rose.json
 aa78f74637aee2347a0f7ff05e2df40b5e08c631 data/colored-foliage/advancements/recipes/decorations/black_wither_rose.json
@@ -356,8 +360,8 @@ a8c858936720a3ea12606746cf422a4f3789dbfc data/colored-foliage/advancements/recip
 23f3603daf549b954b119501c501ec8ad26f81f3 data/colored-foliage/recipes/red_short_grass.json
 4c34ea7eb9a0b108aa3317cb56dbb0a2ef24f927 data/colored-foliage/recipes/yellow_cornflower.json
 1811d671a2b0ffa758aae797d8067df049b50db8 data/colored-foliage/recipes/light_gray_allium.json
-ae92bb268f0eb0624ce37af20367605544135b44 data/colored-foliage/recipes/cyan_orchid.json
 ed077542b09ef6250e2d27a965024cc43e45dea3 data/colored-foliage/recipes/red_orchid.json
+ae92bb268f0eb0624ce37af20367605544135b44 data/colored-foliage/recipes/cyan_orchid.json
 94cbabff633f7b2b624715a37802a33df65b98da data/colored-foliage/recipes/magenta_allium.json
 5930aa9af669378c8de99608e9bf69893030d42b data/colored-foliage/advancements/recipes/decorations/light_blue_lily_of_the_valley.json
 ac3025ca25f0a03651a1e1476f76f1346b1ddbe9 data/colored-foliage/advancements/recipes/decorations/pink_sunflower.json

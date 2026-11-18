@@ -2,7 +2,11 @@ package sofia.foliage.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.fabricmc.fabric.api.tag.convention.v1.ConventionalItemTags;
+import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
+import net.minecraft.registry.tag.ItemTags;
+import sofia.foliage.item.ModItems;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
@@ -20,6 +24,21 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.DYE_STATION)
+                .pattern("DDD")
+                .pattern("PCP")
+                .pattern("PPP")
+                .input('D', ConventionalItemTags.DYES)
+                .input('P', ItemTags.PLANKS)
+                .input('C', Items.CRAFTING_TABLE)
+                .criterion(hasItem(Items.CRAFTING_TABLE), conditionsFromItem(Items.CRAFTING_TABLE))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.UNIVERSAL_DYE, 2)
+                .input(ModBlocks.RAINBOW_FLOWER)
+                .criterion(hasItem(ModBlocks.RAINBOW_FLOWER), conditionsFromItem(ModBlocks.RAINBOW_FLOWER))
+                .offerTo(exporter);
+
         offerShapelessLily(exporter, ModBlocks.WHITE_LILY_OF_THE_VALLEY, Items.WHITE_DYE);
         offerShapelessLily(exporter, ModBlocks.ORANGE_LILY_OF_THE_VALLEY, Items.ORANGE_DYE);
         offerShapelessLily(exporter, ModBlocks.MAGENTA_LILY_OF_THE_VALLEY, Items.MAGENTA_DYE);

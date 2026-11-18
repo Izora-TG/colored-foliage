@@ -26,7 +26,9 @@ public class ModItemGroups {
                         for (var grass : ModBlocks.GRASSES) {
                             entries.add(grass);
                         }
+                        entries.add(ModBlocks.RAINBOW_FLOWER);
                         entries.add(ModItems.UNIVERSAL_DYE);
+                        entries.add(ModBlocks.DYE_STATION);
                     })
                     .build());
 

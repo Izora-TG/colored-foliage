@@ -5,6 +5,9 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import sofia.foliage.block.ModBlocks;
+import sofia.foliage.block.entity.ModBlockEntities;
+import sofia.foliage.screen.ModScreenHandlers;
+import sofia.foliage.world.ModWorldGen;
 import sofia.foliage.item.ModItemGroups;
 import sofia.foliage.item.ModItems;
 
@@ -17,7 +20,10 @@ public class ColoredFoliage implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Colored foliage initialized");
 		ModBlocks.registerModBocks();
-		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlockEntities.registerBlockEntities();
+		ModScreenHandlers.registerScreenHandlers();
+		ModItemGroups.registerItemGroups();
+		ModWorldGen.registerWorldGen();
 	}
 }

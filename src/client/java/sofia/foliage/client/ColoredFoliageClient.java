@@ -7,12 +7,18 @@ import net.minecraft.block.Block;
 import net.minecraft.block.TallPlantBlock;
 import net.minecraft.block.enums.DoubleBlockHalf;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.gui.screen.ingame.HandledScreens;
+import sofia.foliage.client.screen.DyeStationScreen;
+import sofia.foliage.screen.ModScreenHandlers;
 import sofia.foliage.block.DyeableTallFlowerBlock;
 import sofia.foliage.block.ModBlocks;
 
 public class ColoredFoliageClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
+		HandledScreens.register(ModScreenHandlers.DYE_STATION, DyeStationScreen::new);
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RAINBOW_FLOWER, RenderLayer.getCutout());
+
 		for (Block flower : ModBlocks.COLORED_FLOWERS) {
 			BlockRenderLayerMap.INSTANCE.putBlock(flower, RenderLayer.getCutout());
 

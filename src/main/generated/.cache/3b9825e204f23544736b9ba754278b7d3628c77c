@@ -1,7 +1,8 @@
-// 1.20.1	2026-11-18T11:34:36.818069305	colored-foliage/Block Loot Tables
+// 1.20.1	2026-11-18T11:56:09.585125605	colored-foliage/Block Loot Tables
 ffa3065a3e9ea8aac4b72372d01ba9b0251d7333 data/colored-foliage/loot_tables/blocks/magenta_sunflower.json
 0782694bd685c049376ca0def72374ff7693c104 data/colored-foliage/loot_tables/blocks/magenta_short_grass.json
 df1b8f8ed579be13bd51eb4f849602853a41622b data/colored-foliage/loot_tables/blocks/lime_oxeye_daisy.json
+446c54d2e864299d9190479eee56da45e85bfbf2 data/colored-foliage/loot_tables/blocks/dye_station.json
 e1c2f965131640310698e60f2decf4cefec32b1e data/colored-foliage/loot_tables/blocks/purple_short_grass.json
 8706c68aa60e2a581b54b8f5c8e1d7a4d1275887 data/colored-foliage/loot_tables/blocks/cyan_cornflower.json
 7dca5e8fb193a537f328e6ac49f65f93efc4b2d6 data/colored-foliage/loot_tables/blocks/orange_orchid.json
@@ -164,8 +165,8 @@ ec7a752e3b28f579e146471a8d88e58d98a039fa data/colored-foliage/loot_tables/blocks
 ad8af5d09663b8ab12af33f8e55b478dd3051409 data/colored-foliage/loot_tables/blocks/yellow_tulip.json
 cbbd130056fc0d5adfc792e163e1f9fe6d62a7e4 data/colored-foliage/loot_tables/blocks/black_sunflower.json
 e852d060ed06f2edd599ab7343e3e7b273a39a0e data/colored-foliage/loot_tables/blocks/magenta_orchid.json
-2c36e6ca6358c95fb00753a3e84c7798eaba1aac data/colored-foliage/loot_tables/blocks/brown_dandelion.json
 04359fdef02e3fbafb35514d58326a0b5bce1126 data/colored-foliage/loot_tables/blocks/lime_orchid.json
+2c36e6ca6358c95fb00753a3e84c7798eaba1aac data/colored-foliage/loot_tables/blocks/brown_dandelion.json
 c5450b4fe62341a92d1b3bd0feb39194fafe7043 data/colored-foliage/loot_tables/blocks/red_lily_of_the_valley.json
 c41fa90332ff449ffcd95a26ee1cc0bffb7539d8 data/colored-foliage/loot_tables/blocks/black_lily_of_the_valley.json
 ef160ff29713f097c7c680f33532d63baca74927 data/colored-foliage/loot_tables/blocks/green_lily_of_the_valley.json
@@ -186,6 +187,7 @@ c67657d704141538a4dbef160b1f0f706df64f17 data/colored-foliage/loot_tables/blocks
 7a10dfb9bd2de3175157fe9655e132aa0cb9591c data/colored-foliage/loot_tables/blocks/green_allium.json
 5a876ee765c5297853e2a9a6e028ca36ec32ec52 data/colored-foliage/loot_tables/blocks/blue_tulip.json
 7334f58deed982473ade95aac4d28b53863e20d1 data/colored-foliage/loot_tables/blocks/light_gray_sunflower.json
+683eae9a1a7d1f3efe4c874d1b87f21c0ad83b81 data/colored-foliage/loot_tables/blocks/rainbow_flower.json
 1f1bf461aaa2f9f4b8961f4ac549672f441c704a data/colored-foliage/loot_tables/blocks/brown_short_fern.json
 8142781592afda72d987525ff83c43def4eb1df1 data/colored-foliage/loot_tables/blocks/blue_short_grass.json
 0c3af3b50880f4c244e2528bc7ad544e8a85981b data/colored-foliage/loot_tables/blocks/magenta_tulip.json

@@ -207,5 +207,20 @@
   "block.colored-foliage.purple_short_fern": "Purple Fern",
   "block.colored-foliage.red_short_fern": "Red Fern",
   "block.colored-foliage.white_short_fern": "White Fern",
-  "block.colored-foliage.yellow_short_fern": "Yellow Fern"
+  "block.colored-foliage.yellow_short_fern": "Yellow Fern",
+  "item.colored-foliage.universal_dye": "Universal Dye",
+  "block.colored-foliage.rainbow_flower": "Rainbow Flower",
+  "block.colored-foliage.dye_station": "Dye Station",
+  "container.colored-foliage.dye_station": "Dye Station",
+  "gui.colored-foliage.tab.dyeing": "Dyeing",
+  "gui.colored-foliage.tab.storage": "Dye Storage",
+  "gui.colored-foliage.slot.flower": "Insert a flower, grass or fern",
+  "gui.colored-foliage.slot.dye": "Insert dye to fill the storage",
+  "gui.colored-foliage.dye.stock": "%s / %s colorings",
+  "gui.colored-foliage.dye.universal_hint": "Used when a color runs out",
+  "gui.colored-foliage.dye.per_dye": "1 dye = %s colorings",
+  "gui.colored-foliage.button.no_variant": "No variant in this color",
+  "gui.colored-foliage.button.same": "Already this color",
+  "gui.colored-foliage.button.empty": "Out of dye",
+  "gui.colored-foliage.button.uses_universal": "Uses Universal Dye"
 }

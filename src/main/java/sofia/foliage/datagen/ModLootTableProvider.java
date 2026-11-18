@@ -18,6 +18,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         for (var grass : ModBlocks.GRASSES) {
             addDrop(grass, this.grassDrops(grass));
         }
+        addDrop(ModBlocks.RAINBOW_FLOWER);
+        addDrop(ModBlocks.DYE_STATION);
         for (var sunflower : ModBlocks.SUNFLOWERS) {
             addDrop(sunflower, this.dropsWithProperty(sunflower, net.minecraft.block.TallPlantBlock.HALF, net.minecraft.block.enums.DoubleBlockHalf.LOWER));
         }

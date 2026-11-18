@@ -17,6 +17,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup lookup) {
         getOrCreateTagBuilder(BlockTags.FLOWERS).add(ModBlocks.COLORED_FLOWERS);
         getOrCreateTagBuilder(BlockTags.TALL_FLOWERS).add(ModBlocks.SUNFLOWERS);
+        getOrCreateTagBuilder(BlockTags.FLOWERS).add(ModBlocks.RAINBOW_FLOWER);
+        getOrCreateTagBuilder(BlockTags.SMALL_FLOWERS).add(ModBlocks.RAINBOW_FLOWER);
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE).add(ModBlocks.DYE_STATION);
 
         for (var flower : ModBlocks.COLORED_FLOWERS) {
             if (flower instanceof net.minecraft.block.TallFlowerBlock) continue;

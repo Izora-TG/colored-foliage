@@ -14,6 +14,5 @@ public class ColoredFoliageDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
-		pack.addProvider(ModTranslationProvider::new);
 	}
 }

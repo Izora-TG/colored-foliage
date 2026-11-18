@@ -5,6 +5,7 @@ import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.FlowerBlock;
 import net.minecraft.block.MapColor;
+import net.minecraft.block.enums.Instrument;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
@@ -231,6 +232,16 @@ public class ModBlocks {
     public static final Block RED_SHORT_FERN = registerDyeableShortGrass("red_short_fern", MapColor.RED);
     public static final Block BLACK_SHORT_FERN = registerDyeableShortGrass("black_short_fern", MapColor.BLACK);
     public static final Block BLUE_SHORT_FERN = registerDyeableShortGrass("blue_short_fern", MapColor.BLUE);
+
+    public static final Block RAINBOW_FLOWER = registerFlower("rainbow_flower", MapColor.WHITE);
+
+    public static final Block DYE_STATION = registerBlock("dye_station",
+            new DyeStationBlock(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.OAK_TAN)
+                    .instrument(Instrument.BASS)
+                    .strength(2.5F)
+                    .sounds(BlockSoundGroup.WOOD)
+                    .burnable()));
 
     public static final Block[] GRASSES = {
             WHITE_SHORT_GRASS,
@@ -632,6 +643,8 @@ public class ModBlocks {
             for (var flower : ModBlocks.COLORED_FLOWERS) {
                 entries.add(flower);
             }
+            entries.add(RAINBOW_FLOWER);
         });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> entries.add(DYE_STATION));
     }
 }

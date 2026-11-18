@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "colored-foliage:rainbow_flower"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "colored-foliage:universal_dye"
+  }
+}

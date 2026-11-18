@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "colored-foliage:block/dye_station_side",
+    "up": "colored-foliage:block/dye_station_top",
+    "down": "minecraft:block/oak_planks",
+    "north": "colored-foliage:block/dye_station_side",
+    "south": "colored-foliage:block/dye_station_side",
+    "east": "colored-foliage:block/dye_station_side",
+    "west": "colored-foliage:block/dye_station_side"
+  }
+}

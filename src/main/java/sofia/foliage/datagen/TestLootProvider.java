@@ -9,8 +9,8 @@ import java.util.concurrent.CompletableFuture;
 import net.minecraft.registry.RegistryWrapper;
 
 public class TestLootProvider extends FabricBlockLootTableProvider {
-    public TestLootProvider(FabricDataOutput dataOutput, CompletableFuture<RegistryWrapper.WrapperLookup> registryLookup) {
-        super(dataOutput, registryLookup);
+    public TestLootProvider(FabricDataOutput dataOutput) {
+        super(dataOutput);
     }
     @Override
     public void generate() {

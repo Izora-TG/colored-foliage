@@ -5,22 +5,21 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
-import net.minecraft.data.server.recipe.RecipeExporter;
+import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.recipe.book.RecipeCategory;
-import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
 import sofia.foliage.ColoredFoliage;
 import sofia.foliage.block.ModBlocks;
 
-import java.util.concurrent.CompletableFuture;
+import java.util.function.Consumer;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
-    public ModRecipeProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
-        super(output, registriesFuture);
+    public ModRecipeProvider(FabricDataOutput output) {
+        super(output);
     }
 
     @Override
-    public void generate(RecipeExporter exporter) {
+    public void generate(Consumer<RecipeJsonProvider> exporter) {
         offerShapelessLily(exporter, ModBlocks.WHITE_LILY_OF_THE_VALLEY, Items.WHITE_DYE);
         offerShapelessLily(exporter, ModBlocks.ORANGE_LILY_OF_THE_VALLEY, Items.ORANGE_DYE);
         offerShapelessLily(exporter, ModBlocks.MAGENTA_LILY_OF_THE_VALLEY, Items.MAGENTA_DYE);
@@ -235,91 +234,91 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessSFern(exporter, ModBlocks.BLACK_SHORT_FERN, Items.BLACK_DYE);
 
     }
-    private static void offerShapelessLily(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
+    private static void offerShapelessLily(Consumer<RecipeJsonProvider> exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
         net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
                 .input(Items.LILY_OF_THE_VALLEY)
                 .input(dye)
                 .criterion(hasItem(Items.LILY_OF_THE_VALLEY), conditionsFromItem(Items.LILY_OF_THE_VALLEY))
                 .offerTo(exporter);
     }
-    private static void offerSunflowerRecipe(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
+    private static void offerSunflowerRecipe(Consumer<RecipeJsonProvider> exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
         net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(net.minecraft.recipe.book.RecipeCategory.DECORATIONS, output)
                 .input(Items.SUNFLOWER)
                 .input(dye)
                 .criterion(hasItem(Items.SUNFLOWER), conditionsFromItem(Items.SUNFLOWER))
                 .offerTo(exporter);
     }
-    private static void offerShapelessWither(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
+    private static void offerShapelessWither(Consumer<RecipeJsonProvider> exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
         net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
                 .input(Items.WITHER_ROSE)
                 .input(dye)
                 .criterion(hasItem(Items.WITHER_ROSE), conditionsFromItem(Items.WITHER_ROSE))
                 .offerTo(exporter);
     }
-    private static void offerShapelessCorn(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
+    private static void offerShapelessCorn(Consumer<RecipeJsonProvider> exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
         net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
                 .input(Items.CORNFLOWER)
                 .input(dye)
                 .criterion(hasItem(Items.CORNFLOWER), conditionsFromItem(Items.CORNFLOWER))
                 .offerTo(exporter);
     }
-    private static void offerShapelessAllium(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
+    private static void offerShapelessAllium(Consumer<RecipeJsonProvider> exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
         net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
                 .input(Items.ALLIUM)
                 .input(dye)
                 .criterion(hasItem(Items.ALLIUM), conditionsFromItem(Items.ALLIUM))
                 .offerTo(exporter);
     }
-    private static void offerShapelessDande(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
+    private static void offerShapelessDande(Consumer<RecipeJsonProvider> exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
         net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
                 .input(Items.DANDELION)
                 .input(dye)
                 .criterion(hasItem(Items.DANDELION), conditionsFromItem(Items.DANDELION))
                 .offerTo(exporter);
     }
-    private static void offerShapelessPoppy(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
+    private static void offerShapelessPoppy(Consumer<RecipeJsonProvider> exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
         net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
                 .input(Items.POPPY)
                 .input(dye)
                 .criterion(hasItem(Items.POPPY), conditionsFromItem(Items.POPPY))
                 .offerTo(exporter);
     }
-    private static void offerShapelessOxeye(RecipeExporter exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
+    private static void offerShapelessOxeye(Consumer<RecipeJsonProvider> exporter, net.minecraft.item.ItemConvertible output, net.minecraft.item.ItemConvertible dye) {
         net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
                 .input(Items.OXEYE_DAISY)
                 .input(dye)
                 .criterion(hasItem(Items.OXEYE_DAISY), conditionsFromItem(Items.OXEYE_DAISY))
                 .offerTo(exporter);
     }
-    private static void offerShapelessRTulip(RecipeExporter exporter, ItemConvertible output, ItemConvertible dye) {
+    private static void offerShapelessRTulip(Consumer<RecipeJsonProvider> exporter, ItemConvertible output, ItemConvertible dye) {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
                 .input(Items.RED_TULIP)
                 .input(dye)
                 .criterion(hasItem(Items.RED_TULIP), conditionsFromItem(Items.RED_TULIP))
                 .offerTo(exporter);
     }
-    private static void offerShapelessOrchid(RecipeExporter exporter, ItemConvertible output, ItemConvertible dye) {
+    private static void offerShapelessOrchid(Consumer<RecipeJsonProvider> exporter, ItemConvertible output, ItemConvertible dye) {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
                 .input(Items.BLUE_ORCHID)
                 .input(dye)
                 .criterion(hasItem(Items.BLUE_ORCHID), conditionsFromItem(Items.BLUE_ORCHID))
                 .offerTo(exporter);
     }
-    private static void offerShapelessSGrass(RecipeExporter exporter, ItemConvertible output, ItemConvertible dye) {
+    private static void offerShapelessSGrass(Consumer<RecipeJsonProvider> exporter, ItemConvertible output, ItemConvertible dye) {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
-                .input(Items.SHORT_GRASS)
+                .input(Items.GRASS)
                 .input(dye)
-                .criterion(hasItem(Items.SHORT_GRASS), conditionsFromItem(Items.SHORT_GRASS))
+                .criterion(hasItem(Items.GRASS), conditionsFromItem(Items.GRASS))
                 .offerTo(exporter);
     }
-    private static void offerShapelessTGrass(RecipeExporter exporter, ItemConvertible output, ItemConvertible dye) {
+    private static void offerShapelessTGrass(Consumer<RecipeJsonProvider> exporter, ItemConvertible output, ItemConvertible dye) {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
                 .input(Items.TALL_GRASS)
                 .input(dye)
                 .criterion(hasItem(Items.TALL_GRASS), conditionsFromItem(Items.TALL_GRASS))
                 .offerTo(exporter);
     }
-    private static void offerShapelessSFern(RecipeExporter exporter, ItemConvertible output, ItemConvertible dye) {
+    private static void offerShapelessSFern(Consumer<RecipeJsonProvider> exporter, ItemConvertible output, ItemConvertible dye) {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output)
                 .input(Items.FERN)
                 .input(dye)

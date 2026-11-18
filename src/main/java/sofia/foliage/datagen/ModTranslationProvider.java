@@ -2,17 +2,15 @@ package sofia.foliage.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
-import net.minecraft.registry.RegistryWrapper;
 
-import java.util.concurrent.CompletableFuture;
 
 public class ModTranslationProvider extends FabricLanguageProvider {
-    public ModTranslationProvider(FabricDataOutput dataOutput, CompletableFuture<RegistryWrapper.WrapperLookup> registryLookup) {
-        super(dataOutput, registryLookup);
+    public ModTranslationProvider(FabricDataOutput dataOutput) {
+        super(dataOutput);
     }
 
     @Override
-    public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
+    public void generateTranslations(TranslationBuilder translationBuilder) {
         translationBuilder.add("block.colored-foliage.black_short_fern", "Black Fern");
         translationBuilder.add("block.colored-foliage.white_short_fern", "White Fern");
         translationBuilder.add("block.colored-foliage.orange_short_fern", "Orange Fern");

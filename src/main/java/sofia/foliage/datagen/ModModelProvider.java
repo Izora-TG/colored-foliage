@@ -20,13 +20,13 @@ public class ModModelProvider extends FabricModelProvider {
     private static final TextureKey STEM = TextureKey.of("stem");
     private static final TextureKey BLOSSOM = TextureKey.of("blossom");
     private static final Model LAYERED_CROSS = new Model(
-            Optional.of(Identifier.of(ColoredFoliage.MOD_ID, "block/layered_cross")),
+            Optional.of(new Identifier(ColoredFoliage.MOD_ID, "block/layered_cross")),
             Optional.empty(),
             STEM,
             BLOSSOM
     );
     private static final Model TWO_LAYER_GENERATED = new Model(
-            Optional.of(Identifier.ofVanilla("item/generated")),
+            Optional.of(new Identifier("minecraft", "item/generated")),
             Optional.empty(),
             TextureKey.LAYER0,
             TextureKey.LAYER1
@@ -43,8 +43,8 @@ public class ModModelProvider extends FabricModelProvider {
                 Identifier blockId = Registries.BLOCK.getId(flower);
                 String path = blockId.getPath();
                 String baseType = path.substring(path.lastIndexOf('_') + 1);
-                Identifier stemTexture = Identifier.of(ColoredFoliage.MOD_ID, "block/" + baseType + "_stem");
-                Identifier blossomTexture = Identifier.of(ColoredFoliage.MOD_ID, "block/" + baseType + "_blossom");
+                Identifier stemTexture = new Identifier(ColoredFoliage.MOD_ID, "block/" + baseType + "_stem");
+                Identifier blossomTexture = new Identifier(ColoredFoliage.MOD_ID, "block/" + baseType + "_blossom");
 
                 Identifier modelId = LAYERED_CROSS.upload(
                         flower,
@@ -63,13 +63,13 @@ public class ModModelProvider extends FabricModelProvider {
             Identifier blockId = Registries.BLOCK.getId(grass);
             String path = blockId.getPath();
             String baseType = path.substring(path.lastIndexOf('_') + 1);
-            Identifier stemTexture = Identifier.of(ColoredFoliage.MOD_ID, "block/" + baseType + "_stem");
+            Identifier stemTexture = new Identifier(ColoredFoliage.MOD_ID, "block/" + baseType + "_stem");
 
             if (grass instanceof sofia.foliage.block.DyeableTallFlowerBlock) {
-                Identifier bottomTexture = Identifier.of(ColoredFoliage.MOD_ID, "block/tall_grass_bottom");
-                Identifier topTexture = Identifier.of(ColoredFoliage.MOD_ID, "block/tall_grass_top");
-                Identifier lowerModelId = Identifier.of(ColoredFoliage.MOD_ID, "block/" + path + "_bottom");
-                Identifier upperModelId = Identifier.of(ColoredFoliage.MOD_ID, "block/" + path + "_top");
+                Identifier bottomTexture = new Identifier(ColoredFoliage.MOD_ID, "block/tall_grass_bottom");
+                Identifier topTexture = new Identifier(ColoredFoliage.MOD_ID, "block/tall_grass_top");
+                Identifier lowerModelId = new Identifier(ColoredFoliage.MOD_ID, "block/" + path + "_bottom");
+                Identifier upperModelId = new Identifier(ColoredFoliage.MOD_ID, "block/" + path + "_top");
                 net.minecraft.data.client.Models.TINTED_CROSS.upload(
                         lowerModelId,
                         net.minecraft.data.client.TextureMap.cross(bottomTexture),
@@ -117,8 +117,8 @@ public class ModModelProvider extends FabricModelProvider {
                 Identifier blockId = Registries.BLOCK.getId(flower);
                 String path = blockId.getPath();
                 String baseType = path.substring(path.lastIndexOf('_') + 1);
-                Identifier stemTexture = Identifier.of(ColoredFoliage.MOD_ID, "block/" + baseType + "_stem");
-                Identifier blossomTexture = Identifier.of(ColoredFoliage.MOD_ID, "block/" + baseType + "_blossom");
+                Identifier stemTexture = new Identifier(ColoredFoliage.MOD_ID, "block/" + baseType + "_stem");
+                Identifier blossomTexture = new Identifier(ColoredFoliage.MOD_ID, "block/" + baseType + "_blossom");
 
                 TWO_LAYER_GENERATED.upload(
                         ModelIds.getItemModelId(flower.asItem()),
@@ -136,8 +136,8 @@ public class ModModelProvider extends FabricModelProvider {
                 String path = blockId.getPath();
                 String baseType = path.substring(path.lastIndexOf('_') + 1);
                 Identifier itemTexture = grass instanceof sofia.foliage.block.DyeableTallFlowerBlock
-                        ? Identifier.of(ColoredFoliage.MOD_ID, "block/tall_grass_top")
-                        : Identifier.of(ColoredFoliage.MOD_ID, "block/" + baseType + "_stem");
+                        ? new Identifier(ColoredFoliage.MOD_ID, "block/tall_grass_top")
+                        : new Identifier(ColoredFoliage.MOD_ID, "block/" + baseType + "_stem");
 
                 net.minecraft.data.client.Models.GENERATED.upload(
                         ModelIds.getItemModelId(grass.asItem()),

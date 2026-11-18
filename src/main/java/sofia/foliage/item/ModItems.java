@@ -12,7 +12,7 @@ public class ModItems {
     public static final Item UNIVERSAL_DYE = registerItem("universal_dye", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of(ColoredFoliage.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(ColoredFoliage.MOD_ID, name), item);
     }
 
     public static void registerModItems() {

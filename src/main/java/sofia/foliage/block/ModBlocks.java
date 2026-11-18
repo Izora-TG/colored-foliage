@@ -552,7 +552,7 @@ public class ModBlocks {
     private static Block registerFlower(String name, MapColor white) {
         return registerBlock(name,
             new FlowerBlock(StatusEffects.NIGHT_VISION,
-                    5.0F,
+                    5,
                     AbstractBlock.Settings.create()
                             .mapColor(MapColor.DARK_GREEN)
                             .noCollision()
@@ -578,7 +578,7 @@ public class ModBlocks {
     private static Block registerDyeableFlower(String name, MapColor color) {
         return registerBlock(name,
             new DyeableFlowerBlock(color, StatusEffects.NIGHT_VISION,
-                    5.0F,
+                    5,
                     AbstractBlock.Settings.create()
                             .mapColor(color)
                             .noCollision()
@@ -596,9 +596,9 @@ public class ModBlocks {
                 .sounds(BlockSoundGroup.GRASS)
                 .offset(AbstractBlock.OffsetType.XZ)
                 .pistonBehavior(PistonBehavior.DESTROY));
-        Registry.register(Registries.ITEM, Identifier.of(ColoredFoliage.MOD_ID, name),
+        Registry.register(Registries.ITEM, new Identifier(ColoredFoliage.MOD_ID, name),
                 new TallBlockItem(block, new Item.Settings()));
-        return Registry.register(Registries.BLOCK, Identifier.of(ColoredFoliage.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(ColoredFoliage.MOD_ID, name), block);
     }
 
     private static Block registerTallGrass(String name, MapColor color) {
@@ -609,20 +609,20 @@ public class ModBlocks {
                 .sounds(BlockSoundGroup.GRASS)
                 .offset(AbstractBlock.OffsetType.XZ)
                 .pistonBehavior(PistonBehavior.DESTROY));
-        Registry.register(Registries.ITEM, Identifier.of(ColoredFoliage.MOD_ID, name),
+        Registry.register(Registries.ITEM, new Identifier(ColoredFoliage.MOD_ID, name),
                 new TallBlockItem(block, new Item.Settings()));
-        return Registry.register(Registries.BLOCK, Identifier.of(ColoredFoliage.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(ColoredFoliage.MOD_ID, name), block);
     }
 
 
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, Identifier.of(ColoredFoliage.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(ColoredFoliage.MOD_ID, name), block);
     }
 
     private static void registerBlockItem(String name, Block block) {
-        Registry.register(Registries.ITEM, Identifier.of(ColoredFoliage.MOD_ID, name),
+        Registry.register(Registries.ITEM, new Identifier(ColoredFoliage.MOD_ID, name),
                 new BlockItem(block, new Item.Settings()));
     }
 

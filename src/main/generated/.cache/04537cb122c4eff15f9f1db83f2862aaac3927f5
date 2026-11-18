@@ -1,5 +1,5 @@
-// 1.21.1	2026-08-23T09:02:06.0083446	colored-foliage/Tags for minecraft:block
-6859b6b137f01b48aea262deadcc53e47f361cc3 data\minecraft\tags\block\tall_flowers.json
-0f394fc5b17f1816e40195d184c4ed8ab4453f9f data\minecraft\tags\block\flowers.json
-0f394fc5b17f1816e40195d184c4ed8ab4453f9f data\minecraft\tags\block\small_flowers.json
-0f394fc5b17f1816e40195d184c4ed8ab4453f9f data\minecraft\tags\block\flower_pots.json
+// 1.20.1	2026-11-18T11:34:36.817398678	colored-foliage/Tags for minecraft:block
+b3bb37139771bf881f0839ab17e858648f9220cd data/minecraft/tags/blocks/flower_pots.json
+868a98a91dfe864ff5a38e6973fea802f45050bf data/minecraft/tags/blocks/tall_flowers.json
+b3bb37139771bf881f0839ab17e858648f9220cd data/minecraft/tags/blocks/flowers.json
+b3bb37139771bf881f0839ab17e858648f9220cd data/minecraft/tags/blocks/small_flowers.json

@@ -13,7 +13,7 @@ import sofia.foliage.block.ModBlocks;
 public class ModItemGroups {
 
     public static final ItemGroup Colored_FOLIAGE_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(ColoredFoliage.MOD_ID, "colored_foliage_group"),
+            new Identifier(ColoredFoliage.MOD_ID, "colored_foliage_group"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.PURPLE_ALLIUM))
                     .displayName(Text.translatable("itemgroup.colored-foliage.colored_foliage_group"))
                     .entries((displayContext, entries) -> {
